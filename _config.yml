@@ -43,6 +43,19 @@ keywords:              []
 # It also used by the `jekyll-seo-tag` plugin.
 logo:                  /assets/img/logo.png
 
+
+collections:
+  everyday:
+    output: true
+    permalink: /everyday/:name/
+  travel:
+    output: true
+    permalink: /travel/:name/
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
@@ -80,26 +93,7 @@ permalink:             /:categories/:year-:month-:day-:title/
 paginate:              10
 paginate_path:         /:num/
 
-
-collections:
-  everyday:
-    output: true
-    permalink: /everyday/:name/
-  travel:
-    output: true
-    permalink: /travel/:name/
-  projects:
-    output: true
-    permalink: /projects/:name/
-
-
-
-
-
-
-
-
-# Theme
+# Themes
 # ---------------------------------------------------------------------------------------
 
 # This will use the gem `jekyll-theme-hydejack`, as defined in the sibling `Gemfile`.
