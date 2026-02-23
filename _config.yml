@@ -81,6 +81,24 @@ paginate:              10
 paginate_path:         /:num/
 
 
+collections:
+  everyday:
+    output: true
+    permalink: /everyday/:name/
+  travel:
+    output: true
+    permalink: /travel/:name/
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+
+
+
+
+
+
+
 # Theme
 # ---------------------------------------------------------------------------------------
 
