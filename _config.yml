@@ -47,7 +47,7 @@ logo:                  /assets/img/logo.png
 collections:
   everyday:
     output: true
-    permalink: /everyday/:name/
+#    permalink: /everyday/:name/
   travel:
     output: true
     permalink: /travel/:name/
