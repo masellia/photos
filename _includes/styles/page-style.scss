@@ -1,0 +1,9 @@
+@use "sass:color";
+
+/* Override Hydejack's page-style.scss to avoid deprecated fade-out() */
+
+:root {
+  --accent-color: {{ color }};
+  --accent-color-faded: #{color.adjust({{ color }}, $alpha: -0.5)};
+  --accent-color-highlight: #{color.adjust({{ color }}, $alpha: -0.9)};
+}
