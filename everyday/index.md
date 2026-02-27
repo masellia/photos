@@ -63,7 +63,9 @@ order: 1
 </div>
 
 <script>
-document.addEventListener("DOMContentLoaded", function(){
-  GLightbox({ selector: '.glightbox' });
-});
+function initLightbox(){
+  if (window.GLightbox) GLightbox({ selector: '.glightbox' });
+}
+window.addEventListener('load', initLightbox);
+document.addEventListener('pjax:end', initLightbox);
 </script>
