@@ -1,0 +1,14 @@
+/* Hide Hydejack footer credits + legal links */
+footer a[href$="/LICENSE/"],
+footer a[href$="/NOTICE/"],
+footer a[href$="/CHANGELOG/"],
+footer a[href*="hydejack.com"] {
+  display: none !important;
+}
+
+/* Also hide the separators around the links (often printed as |) */
+footer {
+  .legal, .credits, .fine-print, .site-footer__links {
+    display: none !important;
+  }
+}
