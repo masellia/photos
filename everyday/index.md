@@ -3,4 +3,6 @@ layout: page
 title: Everyday Life
 permalink: /everyday/
 ---
-Placeholder landing page for street / everyday life sets.
+
+{% include section-grid.html section="/everyday/" %}
+
