@@ -24,7 +24,7 @@ order: 1
     position:fixed;inset:0;display:none;align-items:center;justify-content:center;
     background:rgba(0,0,0,.9);z-index:9999;padding:24px;
   }
-  .sq-lightbox:target{display:flex}
+  .sq-lightbox:target{display:flex !important}
   .sq-lightbox-inner{max-width:min(1200px, 95vw);max-height:90vh}
   .sq-lightbox-img{max-width:100%;max-height:90vh;display:block;margin:0 auto}
   .sq-close{
@@ -46,7 +46,7 @@ order: 1
 {% for p in items %}
   {% assign full = '/assets/img/everyday/full/' | append: p.file %}
   {% assign thumb = '/assets/img/everyday/thumbs/' | append: p.file %}
-  {% assign id = 'lb-everyday-' | append: forloop.index %}
+  {% assign id = 'lb' | append: forloop.index %}
 
   <article class="sq-card">
     <a class="sq-link" href="#{{ id }}">
@@ -60,10 +60,15 @@ order: 1
       {% endif %}
     </div>
   </article>
+{% endfor %}
+</div>
 
-  <!-- Lightbox overlay -->
+{% assign items = site.data.everyday | reverse %}
+{% for p in items %}
+  {% assign full = '/assets/img/everyday/full/' | append: p.file %}
+  {% assign id = 'lb' | append: forloop.index %}
   <div id="{{ id }}" class="sq-lightbox">
-    <a class="sq-close" href="#_">✕ Close</a>
+    <a class="sq-close" href="#top">✕ Close</a>
     <div class="sq-lightbox-inner">
       <img class="sq-lightbox-img" src="{{ full | relative_url }}" alt="{{ p.name | escape }}">
       <div class="sq-cap">
@@ -73,4 +78,3 @@ order: 1
     </div>
   </div>
 {% endfor %}
-</div>
