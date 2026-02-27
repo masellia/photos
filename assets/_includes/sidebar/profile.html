@@ -1,0 +1,11 @@
+{% if site.author %}
+  <div class="sidebar-about">
+    {% if site.author.avatar %}
+      <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
+    {% endif %}
+    <h1>{{ site.author.name }}</h1>
+    {% if site.author.tagline %}
+      <p class="lead">{{ site.author.tagline }}</p>
+    {% endif %}
+  </div>
+{% endif %}
