@@ -12,3 +12,14 @@ footer {
     display: none !important;
   }
 }
+
+/* Hide the Hydejack brand mark at top of sidebar (try multiple common selectors) */
+.sidebar .sidebar-about a:first-child svg,
+.sidebar .sidebar-about a:first-child .icon,
+.sidebar .sidebar-about a:first-child .logo,
+.sidebar .sidebar-about a:first-child .hydejack-logo,
+.sidebar .sidebar-about a:first-child {
+  /* last selector is aggressive: only use if it removes JUST the Hy mark.
+     If it also removes your name link, tell me and we’ll narrow it. */
+  display: none !important;
+}
