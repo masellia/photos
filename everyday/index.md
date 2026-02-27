@@ -10,28 +10,47 @@ order: 1
 <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js" defer></script>
 
 <style>
-  .sq-feed{display:grid;gap:22px;margin:1.5rem 0}
-  .sq-item{border:1px solid rgba(0,0,0,.12);border-radius:14px;overflow:hidden}
+  .sq-grid{
+    display:grid;
+    gap:16px;
+    margin:1.25rem 0;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  @media (max-width: 1100px){ .sq-grid{ grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  @media (max-width: 800px){  .sq-grid{ grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 520px){  .sq-grid{ grid-template-columns: repeat(1, minmax(0, 1fr)); } }
+
+  .sq-card{
+    border:1px solid rgba(0,0,0,.12);
+    border-radius:14px;
+    overflow:hidden;
+    background:rgba(0,0,0,.02);
+  }
   .sq-link{display:block}
-  .sq-img{width:100%;height:auto;display:block}
-  .sq-meta{padding:12px 16px}
-  .sq-name{margin:0 0 6px 0;font-size:1.05rem}
-  .sq-line{margin:0;color:rgba(0,0,0,.75);font-size:.95rem}
+  .sq-thumb{
+    width:100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    display:block;
+    background:rgba(0,0,0,.04);
+  }
+  .sq-meta{padding:10px 12px}
+  .sq-name{margin:0 0 4px 0;font-size:1rem;line-height:1.2}
+  .sq-line{margin:0;color:rgba(0,0,0,.75);font-size:.9rem;line-height:1.25}
 </style>
 
-<div class="sq-feed">
+<div class="sq-grid">
 {% assign items = site.data.everyday | reverse %}
 {% for p in items %}
   {% assign full = '/assets/img/everyday/full/' | append: p.file %}
   {% assign thumb = '/assets/img/everyday/thumbs/' | append: p.file %}
 
-  <article class="sq-item">
+  <article class="sq-card">
     <a class="sq-link glightbox" href="{{ full | relative_url }}"
        data-title="{{ p.name | escape }}"
        data-description="{{ p.place | escape }} — {{ p.year }}{% if p.camera and p.camera != '' %} • Camera: {{ p.camera | escape }}{% endif %}">
-      <img class="sq-img" src="{{ thumb | relative_url }}" alt="{{ p.name | escape }}">
+      <img class="sq-thumb" src="{{ thumb | relative_url }}" alt="{{ p.name | escape }}">
     </a>
-
     <div class="sq-meta">
       <h3 class="sq-name">{{ p.name }}</h3>
       <p class="sq-line">{{ p.place }} — {{ p.year }}</p>
