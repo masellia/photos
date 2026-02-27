@@ -44,16 +44,6 @@ keywords:              []
 logo:                  /assets/img/logo.png
 
 
-collections:
-  everyday:
-    output: true
-  travel:
-    output: true
-    permalink: /travel/:name/
-  projects:
-    output: true
-    permalink: /projects/:name/
-
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -314,9 +304,19 @@ collections:
     permalink:         /projects/:path/
     output:            true
 
+  everyday:
+    permalink:         /everyday/:path/
+    output:            true
+
+  travel:
+    permalink:         /travel/:path/
+    output:            true
+
+
 
 # File inclusion/exclusion
 # ----------------------------------------------------------------------------------------
+
 
 exclude:
   - .jekyll-cache
