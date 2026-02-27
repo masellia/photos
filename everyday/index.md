@@ -39,6 +39,8 @@ order: 1
   }
 </style>
 
+<div id="top"></div>
+
 <div class="sq-grid">
 {% assign items = site.data.everyday | reverse %}
 {% for p in items %}
