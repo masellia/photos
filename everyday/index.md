@@ -6,6 +6,13 @@ menu: true
 order: 1
 ---
 
+Street views around me.
+
+Humans and their tools—busy with everyday life.  
+A bit different from what I usually see on my daily path.
+
+
+
 <style>
   .sq-grid{display:grid;gap:16px;margin:1.25rem 0;grid-template-columns:repeat(4,minmax(0,1fr))}
   @media (max-width:1100px){.sq-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
