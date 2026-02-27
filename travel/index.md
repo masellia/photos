@@ -6,6 +6,12 @@ menu: true
 order: 2
 ---
 
+A collection of pictures I shot during my trips—either for holidays or for work.
+
+Every time I travel abroad I try to catch, with my camera, a glimpse of how people live and share moments of everyday life in their characteristic environment.
+
+Here are snapshots of life-in-motion, different from my usual horizon.
+
 <style>
   .sq-grid{display:grid;gap:16px;margin:1.25rem 0;grid-template-columns:repeat(4,minmax(0,1fr))}
   @media (max-width:1100px){.sq-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
