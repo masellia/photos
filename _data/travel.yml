@@ -1,5 +1,11 @@
-- file: example.jpg
-  name: Example photo
-  place: ""
+- file: Librai_Lisbona_210226.jpg
+  name: Librai
+  place: Lisbon, Portugal
+  year: 2026
+  camera: ""
+
+- file: Musicanti_Lisbona_210226.jpg
+  name: Musicanti
+  place: Lisbon, Portugal
   year: 2026
   camera: ""
