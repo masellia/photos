@@ -300,18 +300,6 @@ collections:
     permalink:         /tag-:name/
     output:            true
 
-  projects:
-    permalink:         /projects/:path/
-    output:            true
-
-  everyday:
-    permalink:         /everyday/:path/
-    output:            true
-
-  travel:
-    permalink:         /travel/:path/
-    output:            true
-
 
 
 # File inclusion/exclusion
