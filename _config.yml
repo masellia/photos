@@ -15,6 +15,9 @@
 # General settings
 # ---------------------------------------------------------------------------------------
 
+hydejack:
+  no_push_state: true
+
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
 lang:                  en
@@ -29,7 +32,7 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:               pics and thoughts from everyday life
+tagline:               pics and thoughts
 
 # webaddress.
 url: "https://masellia.github.io"
