@@ -6,9 +6,6 @@ menu: true
 order: 2
 ---
 
-<link rel="stylesheet" href="{{ '/assets/vendor/glightbox/glightbox.min.css' | relative_url }}">
-<script src="{{ '/assets/vendor/glightbox/glightbox.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/lightbox-init.js' | relative_url }}"></script>
 
 <style>
   .sq-grid{display:grid;gap:16px;margin:1.25rem 0;grid-template-columns:repeat(4,minmax(0,1fr))}

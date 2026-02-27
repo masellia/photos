@@ -5,11 +5,6 @@ permalink: /everyday/
 menu: true
 order: 1
 ---
-<link rel="stylesheet" href="{{ '/assets/vendor/glightbox/glightbox.min.css' | relative_url }}">
-<script src="{{ '/assets/vendor/glightbox/glightbox.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/lightbox-init.js' | relative_url }}"></script>
-
-
 
 <style>
   .sq-grid{
