@@ -54,13 +54,16 @@ author:
   # twitter:             <username>
 
 # Add links to the sidebar.
-menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
-  - title:             About
-    url:               /about/
+  menu:
+  - title: Everyday Life
+    url: /everyday/
+  - title: Travel Highlights
+    url: /travel/
+  - title: Projects
+    url: /projects/
+  - title: Blog
+    url: /posts/
+
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
