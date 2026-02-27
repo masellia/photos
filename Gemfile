@@ -10,7 +10,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 4.3"
 
-gem "jekyll-theme-hydejack", "~> 9.1"
+gem "minima", "~> 2.5"
 
 gem "sass-embedded", "~> 1.69"
 
