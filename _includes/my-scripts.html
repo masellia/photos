@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="{{ '/assets/vendor/glightbox/glightbox.min.css' | relative_url }}">
+<script src="{{ '/assets/vendor/glightbox/glightbox.min.js' | relative_url }}"></script>
+
+<script>
+(function () {
+  function initLightbox() {
+    if (!window.GLightbox) return;
+    if (window.__sqLightbox && typeof window.__sqLightbox.destroy === "function") {
+      window.__sqLightbox.destroy();
+    }
+    window.__sqLightbox = GLightbox({ selector: '.glightbox' });
+  }
+
+  // First load
+  window.addEventListener('load', initLightbox);
+
+  // Hydejack push-state navigation (fires after scripts are inserted and loaded)
+  var ps = document.getElementById('_pushState');
+  if (ps) ps.addEventListener('hy-push-state-load', initLightbox);
+})();
+</script>
