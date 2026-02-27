@@ -2,7 +2,7 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              <firstname> <lastname>
+  name:              <Andrea> <Maselli>
   email:             <mail@domain.tld>
 
   # Used at the bottom of each page and at the top of the `about` layout
@@ -93,5 +93,6 @@ author2:
     Open `_data/authors.yml` to edit this text.
 
   picture:           https://placehold.it/128x128
-  twitter:           <username>
-  github:            <username>
+#  twitter:           <username>
+#  github:            <username>
+instagram: your_instagram_username
