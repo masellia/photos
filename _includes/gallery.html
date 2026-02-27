@@ -1,0 +1,42 @@
+<!-- Gallery include
+Usage: {% include gallery.html images=page.images thumb_path="/assets/img/everyday/thumbs/" full_path="/assets/img/everyday/full/" %}
+`images` is an array of filenames (no leading slash), or you can omit paths if you put full urls in the array.
+-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js" defer></script>
+
+<style>
+.gallery-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin:1.25rem 0}
+.gallery-card{display:block;border-radius:8px;overflow:hidden;position:relative;background:#f6f6f6}
+.gallery-thumb{display:block;width:100%;height:0;padding-bottom:66.666%;object-fit:cover;background-size:cover;background-position:center}
+.gallery-caption{padding:8px;font-size:0.95rem}
+</style>
+
+<div class="gallery-grid">
+{% assign images = include.images | default: page.images %}
+{% assign thumb_path = include.thumb_path | default: "/assets/img/thumbs/" %}
+{% assign full_path = include.full_path | default: "/assets/img/full/" %}
+
+{% for img in images %}
+  {% if img contains 'http' %}
+    {% assign thumb = img %}
+    {% assign full = img %}
+  {% else %}
+    {% assign thumb = thumb_path | append: img %}
+    {% assign full = full_path | append: img %}
+  {% endif %}
+
+  <a class="gallery-card" href="{{ full | relative_url }}" data-glightbox="title: {{ img | split: '.' | first | replace: '-', ' ' }}">
+    <div class="gallery-thumb" style="background-image:url('{{ thumb | relative_url }}');"></div>
+    <div class="gallery-caption">{{ img | split: '.' | first | replace: '-', ' ' }}</div>
+  </a>
+{% endfor %}
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+  if (typeof GLightbox !== 'undefined') {
+    GLightbox({selector: '.gallery-card'});
+  }
+});
+</script>
