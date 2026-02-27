@@ -6,10 +6,8 @@ menu: true
 order: 1
 ---
 
-Street views around me.
 
-Humans and their tools—busy with everyday life.  
-A bit different from what I usually see on my daily path.
+Humans and their tools —busy with life, I witness on my daily path.
 
 
 

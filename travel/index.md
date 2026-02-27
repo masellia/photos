@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Travel Highlights
+title: Travels
 permalink: /travel/
 menu: true
 order: 2
 ---
 
-A collection of pictures I shot during my trips—either for holidays or for work.
+A collection of pictures I shot during my trips — either for holidays or for work.
 
 Every time I travel abroad I try to catch, with my camera, a glimpse of how people live and share moments of everyday life in their characteristic environment.
 
