@@ -52,10 +52,34 @@ Humans and their tools —busy with life, I witness on my daily path.
     padding:10px 12px;border-radius:10px;text-decoration:none;
     font-size:14px;line-height:1;border:1px solid rgba(255,255,255,.25)
   }
-  .sq-cap{
-    color:rgba(255,255,255,.85);margin-top:10px;font-size:14px;line-height:1.35;
-    text-align:center
-  }
+
+.sq-cap{
+  color: rgba(255,255,255,.85);
+  margin-top: 18px;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.sq-cap-place{
+  font-weight: 500;
+}
+
+.sq-cap-date{
+  opacity: 0.9;
+}
+
+.sq-cap-camera{
+  opacity: 0.8;
+  font-size: 0.85rem;
+}
+
+.sq-cap,
+.sq-cap div {
+  text-align: center !important;
+  hyphens: none !important;
+}
+
   .sq-card.dim {
   opacity: 0.25;
   transition: opacity 0.2s ease;
@@ -64,14 +88,6 @@ Humans and their tools —busy with life, I witness on my daily path.
 .sq-card.highlight {
   opacity: 1;
   box-shadow: 0 0 0 2px #b00020;
-}
-
-/* Keep thumbnail captions left-aligned */
-.sq-meta,
-.sq-meta p,
-.sq-name,
-.sq-line {
-  text-align: left !important;
 }
 
 </style>
@@ -108,10 +124,14 @@ Humans and their tools —busy with life, I witness on my daily path.
     <a class="sq-close" href="#top">✕ Close</a>
     <div class="sq-lightbox-inner">
       <img class="sq-lightbox-img" src="{{ full | relative_url }}" alt="{{ p.name | escape }}">
-      <div class="sq-cap">
-        <strong>{{ p.name }}</strong><br>
-        {{ p.place }} — {{ p.date }}{% if p.camera and p.camera != "" %} • Camera: {{ p.camera }}{% endif %}
-      </div>
+
+<div class="sq-cap">
+  <div class="sq-cap-place">{{ p.place }}</div>
+  <div class="sq-cap-date">{{ p.date }}</div>
+  {% if p.camera and p.camera != "" %}
+    <div class="sq-cap-camera">Camera: {{ p.camera }}</div>
+  {% endif %}
+</div>
     </div>
   </div>
 {% endfor %}

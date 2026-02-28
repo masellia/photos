@@ -47,17 +47,40 @@ Here are snapshots of life-in-motion, different from my usual horizon.
   }
   .sq-lightbox:target{display:flex !important}
   .sq-lightbox-inner{max-width:min(1200px, 95vw);max-height:90vh}
-  .sq-lightbox-img{max-width:100%;max-height:90vh;display:block;margin:0 auto}
+  .sq-lightbox-img{max-width:100%;max-height:75vh;display:block;margin:0 auto}
   .sq-close{
     position:fixed;top:18px;right:18px;
     background:rgba(255,255,255,.12);color:white;
     padding:10px 12px;border-radius:10px;text-decoration:none;
     font-size:14px;line-height:1;border:1px solid rgba(255,255,255,.25)
   }
-  .sq-cap{
-    color:rgba(255,255,255,.85);margin-top:10px;font-size:14px;line-height:1.35;
-    text-align:center
-  }
+
+.sq-cap{
+  color: rgba(255,255,255,.85);
+  margin-top: 18px;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.sq-cap-place{
+  font-weight: 500;
+}
+
+.sq-cap-date{
+  opacity: 0.9;
+}
+
+.sq-cap-camera{
+  opacity: 0.8;
+  font-size: 0.85rem;
+}
+
+.sq-cap,
+.sq-cap div {
+  text-align: center !important;
+  hyphens: none !important;
+}
 
 .sq-card.dim {
   opacity: 0.25;
@@ -101,10 +124,13 @@ Here are snapshots of life-in-motion, different from my usual horizon.
     <a class="sq-close" href="#top">✕ Close</a>
     <div class="sq-lightbox-inner">
       <img class="sq-lightbox-img" src="{{ full | relative_url }}" alt="{{ p.name | escape }}">
-      <div class="sq-cap">
-        <strong>{{ p.name }}</strong><br>
-        {{ p.place }} — {{ p.date }}{% if p.camera and p.camera != "" %} • Camera: {{ p.camera }}{% endif %}
-      </div>
+<div class="sq-cap">
+  <div class="sq-cap-place">{{ p.place }}</div>
+  <div class="sq-cap-date">{{ p.date }}</div>
+  {% if p.camera and p.camera != "" %}
+    <div class="sq-cap-camera">Camera: {{ p.camera }}</div>
+  {% endif %}
+</div>
     </div>
   </div>
 {% endfor %}
