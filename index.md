@@ -18,11 +18,13 @@ menu: false
 </h2>
 <hr style="margin: 0.5rem 0 1.5rem 0;">
 
-
+<p>
 Everyday theoretical physicist, traveller for work and for passion.
+</p>
 
-
+<p>
 Nothing strikes me more than the infinite realizations of Mother Nature in all corners of our Universe—from empty spots in distant galaxies to the isolated land we call Earth.
+</p>
 
 I am attracted by all forms of life, and in particular by one of the most peculiar manifestations of Nature’s richness: human beings, with the complexity and variety of their relations.
 
