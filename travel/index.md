@@ -12,6 +12,18 @@ Every time I travel abroad I try to catch, with my camera, a glimpse of how peop
 
 Here are snapshots of life-in-motion, different from my usual horizon.
 
+<div class="sq-grid">
+  <article class="sq-card">
+    <a href="{{ '/travel/japan-2024/' | relative_url }}">
+      <img class="sq-thumb" src="{{ '/assets/img/travel/japan-2024/thumbs/Librai_Lisbona_210226.jpg' | relative_url }}" alt="Japan 2024">
+    </a>
+    <div class="sq-meta">
+      <div class="sq-name">Japan 2024</div>
+      <div class="sq-place">Prototype trip gallery</div>
+    </div>
+  </article>
+</div>
+
 <style>
   .sq-grid{display:grid;gap:16px;margin:1.25rem 0;grid-template-columns:repeat(4,minmax(0,1fr))}
   @media (max-width:1100px){.sq-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
@@ -122,7 +134,7 @@ Here are snapshots of life-in-motion, different from my usual horizon.
 <div class="sq-meta">
   <div class="sq-name">{{ p.name }}</div>
   <div class="sq-place">{{ p.place }}</div>
-  <div class="sq-date">{{ p.date }}</div>
+  <div class="sq-date">{{ p.date | date: "%B %Y" }}</div>
   {% if p.camera and p.camera != "" %}
     <div class="sq-camera">Camera: {{ p.camera }}</div>
   {% endif %}
@@ -141,7 +153,7 @@ Here are snapshots of life-in-motion, different from my usual horizon.
       <img class="sq-lightbox-img" src="{{ full | relative_url }}" alt="{{ p.name | escape }}">
 <div class="sq-cap">
   <div class="sq-cap-place">{{ p.place }}</div>
-  <div class="sq-cap-date">{{ p.date }}</div>
+  <div class="sq-cap-date">{{ p.date | date: "%B %Y" }}</div>
   {% if p.camera and p.camera != "" %}
     <div class="sq-cap-camera">Camera: {{ p.camera }}</div>
   {% endif %}
