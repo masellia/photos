@@ -110,6 +110,9 @@ Humans and their tools —busy with life, I witness on my daily path.
 
 <hr style="margin: 2rem 0;">
 
+<p>
+<h2>Map</h2>
+</p>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
