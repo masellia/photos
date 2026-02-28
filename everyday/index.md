@@ -109,7 +109,7 @@ Humans and their tools —busy with life, I witness on my daily path.
 <div id="top"></div>
 
 <div class="sq-grid">
-{% assign items = site.data.everyday | reverse %}
+{% assign items = site.data.everyday | sort: "date" | reverse %}
 {% for p in items %}
   {% assign full = '/assets/img/everyday/full/' | append: p.file %}
   {% assign thumb = '/assets/img/everyday/thumbs/' | append: p.file %}
@@ -122,7 +122,7 @@ Humans and their tools —busy with life, I witness on my daily path.
 <div class="sq-meta">
   <div class="sq-name">{{ p.name }}</div>
   <div class="sq-place">{{ p.place }}</div>
-  <div class="sq-date">{{ p.date }}</div>
+  <div class="sq-date">{{ p.date | date: "%B %Y" }}</div>
   {% if p.camera and p.camera != "" %}
     <div class="sq-camera">Camera: {{ p.camera }}</div>
   {% endif %}
@@ -142,7 +142,7 @@ Humans and their tools —busy with life, I witness on my daily path.
 
 <div class="sq-cap">
   <div class="sq-cap-place">{{ p.place }}</div>
-  <div class="sq-cap-date">{{ p.date }}</div>
+  <div class="sq-cap-date">{{ p.date | date: "%B %Y" }}</div>
   {% if p.camera and p.camera != "" %}
     <div class="sq-cap-camera">Camera: {{ p.camera }}</div>
   {% endif %}
