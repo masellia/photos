@@ -59,7 +59,7 @@ Humans and their tools —busy with life, I witness on my daily path.
     </a>
     <div class="sq-meta">
       <h3 class="sq-name">{{ p.name }}</h3>
-      <p class="sq-line">{{ p.place }} — {{ p.year }}</p>
+      <p class="sq-line">{{ p.place }} — {{ p.date }}</p>      
       {% if p.camera and p.camera != "" %}
         <p class="sq-line">Camera: {{ p.camera }}</p>
       {% endif %}
@@ -78,7 +78,7 @@ Humans and their tools —busy with life, I witness on my daily path.
       <img class="sq-lightbox-img" src="{{ full | relative_url }}" alt="{{ p.name | escape }}">
       <div class="sq-cap">
         <strong>{{ p.name }}</strong><br>
-        {{ p.place }} — {{ p.year }}{% if p.camera and p.camera != "" %} • Camera: {{ p.camera }}{% endif %}
+        {{ p.place }} — {{ p.date }}{% if p.camera and p.camera != "" %} • Camera: {{ p.camera }}{% endif %}
       </div>
     </div>
   </div>
