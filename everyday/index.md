@@ -110,8 +110,6 @@ Humans and their tools —busy with life, I witness on my daily path.
 
 <hr style="margin: 2rem 0;">
 
-<h2>Map</h2>
-<p style="margin-top:-.5rem;color:rgba(0,0,0,.7)">Locations of photos in this section (one marker per unique place).</p>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
