@@ -1,4 +1,12 @@
 - file: Librai_Lisbona_210226.jpg
+  name: A foggy walking path to the Observatoire de Paris
+  place: Meudon, France
+  date: December 2021
+  camera: ""
+  lat: 48.8130
+  lon: -2.2385
+
+- file: Librai_Lisbona_210226.jpg
   name: Street bookseller
   place: Lisbon, Portugal
   date: February 2026
@@ -13,3 +21,11 @@
   camera: "Leica Q3"
   lat: 38.7223
   lon: -9.1393
+
+- file: Cantine_Porto_220226.jpg
+  name: Porto Wine Barrels
+  place: Porto, Portugal
+  date: February 2026
+  camera: "Leica Q3"
+  lat: 41.1579
+  lon: -8.6291
