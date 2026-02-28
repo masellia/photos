@@ -101,10 +101,10 @@ Here are snapshots of life-in-motion, different from my usual horizon.
   hyphens: none !important;
 }
 
-.sq-place{ font-weight: 500; }
-.sq-date{ opacity: 0.85; }
-.sq-camera{ opacity: 0.75; font-size: 0.85rem; }
-
+.sq-name{ font-weight: 600; }
+.sq-place{ opacity: 0.9; }
+.sq-date{ opacity: 0.8; }
+.sq-camera{ opacity: 0.7; font-size: 0.85rem; }
 </style>
 
 <div id="top"></div>
@@ -120,6 +120,7 @@ Here are snapshots of life-in-motion, different from my usual horizon.
       <img class="sq-thumb" src="{{ thumb | relative_url }}" alt="{{ p.name | escape }}">
     </a>
 <div class="sq-meta">
+  <div class="sq-name">{{ p.name }}</div>
   <div class="sq-place">{{ p.place }}</div>
   <div class="sq-date">{{ p.date }}</div>
   {% if p.camera and p.camera != "" %}
