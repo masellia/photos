@@ -42,6 +42,15 @@ Humans and their tools —busy with life, I witness on my daily path.
     color:rgba(255,255,255,.85);margin-top:10px;font-size:14px;line-height:1.35;
     text-align:center
   }
+  .sq-card.dim {
+  opacity: 0.25;
+  transition: opacity 0.2s ease;
+}
+
+.sq-card.highlight {
+  opacity: 1;
+  box-shadow: 0 0 0 2px #b00020;
+}
 </style>
 
 <div id="top"></div>
@@ -53,8 +62,8 @@ Humans and their tools —busy with life, I witness on my daily path.
   {% assign thumb = '/assets/img/everyday/thumbs/' | append: p.file %}
   {% assign id = 'lb' | append: forloop.index %}
 
-  <article class="sq-card">
-    <a class="sq-link" href="#{{ id }}">
+  <article class="sq-card" data-place="{{ p.place | escape }}">
+   <a class="sq-link" href="#{{ id }}">
       <img class="sq-thumb" src="{{ thumb | relative_url }}" alt="{{ p.name | escape }}">
     </a>
     <div class="sq-meta">
@@ -133,13 +142,30 @@ Humans and their tools —busy with life, I witness on my daily path.
     const ll = [m.lat, m.lon];
     bounds.push(ll);
 
-    L.circleMarker(ll, {
+    const marker = L.circleMarker(ll, {
       radius: 6,
       color: '#b00020',
       fillColor: '#d0002a',
       fillOpacity: 0.9,
       weight: 1
     }).addTo(map).bindPopup(m.place);
+
+    marker.on('click', function () {
+     const cards = document.querySelectorAll('.sq-card');
+     cards.forEach(card => {
+      if (card.dataset.place === m.place) {
+        card.classList.remove('dim');
+        card.classList.add('highlight');
+      } else {
+        card.classList.remove('highlight');
+        card.classList.add('dim');
+      }
+    });
+
+  // scroll grid into view
+    document.querySelector('.sq-grid').scrollIntoView({ behavior: 'smooth' });
+   });
+
   }
 
   if (bounds.length) {
@@ -147,5 +173,13 @@ Humans and their tools —busy with life, I witness on my daily path.
   } else {
     map.setView([20, 0], 2); // fallback global view
   }
+  
+  map.on('click', function(){
+  const cards = document.querySelectorAll('.sq-card');
+  cards.forEach(card => {
+    card.classList.remove('dim');
+    card.classList.remove('highlight');
+  });
+});
 })();
 </script>
