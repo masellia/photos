@@ -4,20 +4,15 @@
 <link rel="icon" type="image/png" sizes="192x192" href="{{ '/assets/img/favicon-192.png' | relative_url }}">
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}">
 
-<!-- Typography -->
 <style>
-  /* Hydejack main content is usually inside #_main */
-  #_main p,
-  #_main li,
-  #_main blockquote,
-  #_main .content p,
-  #_main .content li,
-  #_main .page-content p,
-  #_main .page-content li,
-  #_main .post-content p,
-  #_main .post-content li {
+  /* Justify everything in the main column (covers plain text nodes too) */
+  #_main{
     text-align: justify !important;
     text-justify: inter-word;
     hyphens: auto;
+  }
+  /* Keep headings left-aligned */
+  #_main h1, #_main h2, #_main h3{
+    text-align: left !important;
   }
 </style>
