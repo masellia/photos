@@ -5,14 +5,25 @@
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}">
 
 <style>
-  /* Justify everything in the main column (covers plain text nodes too) */
+  /* Main content typography refinement */
   #_main{
     text-align: justify !important;
     text-justify: inter-word;
     hyphens: auto;
+    line-height: 1.7;
   }
-  /* Keep headings left-aligned */
-  #_main h1, #_main h2, #_main h3{
+
+  /* Paragraph spacing */
+  #_main p{
+    margin-bottom: 1.2rem;
+  }
+
+  /* Keep headings left aligned */
+  #_main h1,
+  #_main h2,
+  #_main h3{
     text-align: left !important;
+    line-height: 1.3;
+    margin-bottom: 1rem;
   }
 </style>
