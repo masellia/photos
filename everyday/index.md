@@ -45,7 +45,7 @@ Humans and their tools —busy with life, I witness on my daily path.
   }
   .sq-lightbox:target{display:flex !important}
   .sq-lightbox-inner{max-width:min(1200px, 95vw);max-height:90vh}
-  .sq-lightbox-img{max-width:100%;max-height:90vh;display:block;margin:0 auto}
+  .sq-lightbox-img{max-width:100%;max-height:75vh;display:block;margin:0 auto}
   .sq-close{
     position:fixed;top:18px;right:18px;
     background:rgba(255,255,255,.12);color:white;
