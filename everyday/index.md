@@ -83,3 +83,69 @@ Humans and their tools —busy with life, I witness on my daily path.
     </div>
   </div>
 {% endfor %}
+
+
+<hr style="margin: 2rem 0;">
+
+<h2>Map</h2>
+<p style="margin-top:-.5rem;color:rgba(0,0,0,.7)">Locations of photos in this section (one marker per unique place).</p>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<div id="everyday-map" style="height: 420px; border-radius: 14px; overflow: hidden; border: 1px solid rgba(0,0,0,.12);"></div>
+
+<script>
+(function(){
+  // Build markers array from Jekyll data
+  const raw = [
+    {% for p in site.data.everyday %}
+      {% if p.lat and p.lon %}
+      {
+        place: {{ p.place | jsonify }},
+        lat: {{ p.lat }},
+        lon: {{ p.lon }}
+      }{% unless forloop.last %},{% endunless %}
+      {% endif %}
+    {% endfor %}
+  ];
+
+  // Deduplicate by coordinates (rounded to avoid tiny differences)
+  const seen = new Map();
+  for (const m of raw) {
+    const key = `${m.place}|${m.lat.toFixed(4)}|${m.lon.toFixed(4)}`;
+    if (!seen.has(key)) seen.set(key, m);
+  }
+  const markers = Array.from(seen.values());
+
+  const el = document.getElementById('everyday-map');
+  if (!el) return;
+
+  const map = L.map('everyday-map', { scrollWheelZoom: false });
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  const bounds = [];
+  for (const m of markers) {
+    const ll = [m.lat, m.lon];
+    bounds.push(ll);
+
+    L.circleMarker(ll, {
+      radius: 6,
+      color: '#b00020',
+      fillColor: '#d0002a',
+      fillOpacity: 0.9,
+      weight: 1
+    }).addTo(map).bindPopup(m.place);
+  }
+
+  if (bounds.length) {
+    map.fitBounds(bounds, { padding: [20, 20] });
+  } else {
+    map.setView([20, 0], 2); // fallback global view
+  }
+})();
+</script>
