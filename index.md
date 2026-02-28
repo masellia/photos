@@ -5,6 +5,14 @@ permalink: /
 menu: false
 ---
 
+<div style="display:flex; gap:28px; align-items:flex-start; flex-wrap:wrap; margin-bottom:2rem;">
+
+  <img src="{{ '/assets/img/portrait.jpg' | relative_url }}" 
+       alt="Andrea Maselli"
+       style="width:220px; border-radius:12px; flex-shrink:0;">
+
+  <div style="flex:1; min-width:260px;">
+
 ## Astrophysicist, passionate of Stars and Human Beings
 
 Everyday theoretical physicist, traveller for work and for passion.
