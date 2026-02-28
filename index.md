@@ -13,7 +13,11 @@ menu: false
 
   <div style="flex:1; min-width:260px;">
 
-## Astrophysicist, passionate of Stars and Human Beings
+<h2 style="margin-top:0;">
+  Astrophysicist, passionate of Stars and Human Beings
+</h2>
+<hr style="margin: 0.5rem 0 1.5rem 0;">
+
 
 Everyday theoretical physicist, traveller for work and for passion.
 
