@@ -5,37 +5,117 @@ permalink: /travel/japan-2024/
 ---
 
 <p style="margin-top:-.5rem;color:rgba(0,0,0,.7)">
-A prototype trip gallery (placeholder images for now).
+A prototype trip gallery.
 </p>
 
 <style>
-.sq-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
-@media (max-width:1000px){.sq-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
-@media (max-width:720px){.sq-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* GRID */
+.sq-grid{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:16px;
+  margin:1.25rem 0;
+}
+@media (max-width:1100px){.sq-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:800px){.sq-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.sq-grid{grid-template-columns:repeat(1,minmax(0,1fr))}}
 
-.sq-card{border-radius:14px;overflow:hidden;background:#fff;border:1px solid rgba(0,0,0,.08)}
-.sq-thumb{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:rgba(0,0,0,.04);
-  filter: grayscale(20%); transition: filter .35s ease, transform .35s ease;}
-.sq-card:hover .sq-thumb{filter:grayscale(0%); transform:scale(1.02);}
+.sq-card{
+  border:1px solid rgba(0,0,0,.12);
+  border-radius:14px;
+  overflow:hidden;
+  background:rgba(0,0,0,.02);
+}
 
-.sq-meta{padding:10px 12px;text-align:left!important;font-size:.9rem;line-height:1.35;hyphens:none!important}
-.sq-name{font-weight:600}
-.sq-place{opacity:.9}
-.sq-date{opacity:.8}
-.sq-camera{opacity:.7;font-size:.85rem}
+.sq-thumb{
+  width:100%;
+  aspect-ratio:4/3;
+  object-fit:cover;
+  display:block;
+  background:rgba(0,0,0,.04);
+  filter: grayscale(20%);
+  transition: filter 0.35s ease, transform 0.35s ease;
+}
 
-.sq-lightbox{position:fixed;inset:0;background:rgba(0,0,0,.92);display:none;align-items:center;justify-content:center;z-index:9999;padding:24px}
-.sq-lightbox.open{display:flex}
-.sq-lightbox-inner{max-width:min(1100px,92vw);max-height:92vh}
-.sq-lightbox-img{max-width:100%;max-height:75vh;display:block;margin:0 auto}
-.sq-cap{color:rgba(255,255,255,.85);margin-top:18px;text-align:center;font-size:.9rem;line-height:1.4}
-.sq-cap-place{font-weight:500}
-.sq-cap-date{opacity:.9}
-.sq-cap-camera{opacity:.8;font-size:.85rem}
-.sq-cap,.sq-cap div{hyphens:none!important}
-.sq-close{position:absolute;top:14px;right:18px;font-size:34px;line-height:1;color:#fff;background:transparent;border:0;cursor:pointer;opacity:.9}
+.sq-card:hover .sq-thumb{
+  filter: grayscale(0%);
+  transform: scale(1.02);
+}
+
+/* THUMBNAIL CAPTION */
+.sq-meta{
+  padding:10px 12px;
+  text-align:left !important;
+  font-size:0.9rem;
+  line-height:1.35;
+  hyphens:none !important;
+}
+.sq-name{font-weight:600;}
+.sq-place{opacity:0.9;}
+.sq-date{opacity:0.8;}
+.sq-camera{opacity:0.7;font-size:0.85rem;}
+
+/* LIGHTBOX */
+.sq-lightbox{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.92);
+  display:none;
+  align-items:center;
+  justify-content:center;
+  z-index:9999;
+  padding:24px;
+}
+.sq-lightbox.open{display:flex;}
+
+.sq-lightbox-inner{
+  max-width:min(1100px,92vw);
+  max-height:92vh;
+}
+
+.sq-lightbox-img{
+  max-width:100%;
+  max-height:75vh;
+  display:block;
+  margin:0 auto;
+}
+
+.sq-cap{
+  color:rgba(255,255,255,.85);
+  margin-top:18px;
+  text-align:center;
+  font-size:0.9rem;
+  line-height:1.4;
+}
+.sq-cap-place{font-weight:500;}
+.sq-cap-date{opacity:0.9;}
+.sq-cap-camera{opacity:0.8;font-size:0.85rem;}
+
+.sq-close{
+  position:absolute;
+  top:14px;
+  right:18px;
+  font-size:34px;
+  line-height:1;
+  color:#fff;
+  background:transparent;
+  border:0;
+  cursor:pointer;
+  opacity:.9;
+}
+
+/* MAP FILTERING */
+.sq-card.dim{
+  opacity:0.25;
+  transition:opacity 0.2s ease;
+}
+.sq-card.highlight{
+  opacity:1;
+  box-shadow:0 0 0 2px #b00020;
+}
 </style>
 
+<!-- GRID -->
 <div class="sq-grid">
 {% assign items = site.data["travel-japan-2024"] | sort: "date" | reverse %}
 {% for p in items %}
@@ -55,8 +135,9 @@ A prototype trip gallery (placeholder images for now).
 {% endfor %}
 </div>
 
+<!-- LIGHTBOX -->
 <div class="sq-lightbox" id="sq-lightbox">
-  <button class="sq-close" id="sq-close" aria-label="Close">×</button>
+  <button class="sq-close" id="sq-close">×</button>
   <div class="sq-lightbox-inner">
     <img class="sq-lightbox-img" id="sq-lightbox-img" alt="">
     <div class="sq-cap" id="sq-cap"></div>
@@ -113,15 +194,14 @@ A prototype trip gallery (placeholder images for now).
 })();
 </script>
 
-<hr style="margin: 2.5rem 0;">
+<hr style="margin:2.5rem 0;">
 
 <h2>Map</h2>
-</p>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
-<div id="japan-map" style="height: 420px; border-radius: 14px; overflow: hidden; border: 1px solid rgba(0,0,0,.12);"></div>
+<div id="japan-map" style="height:420px;border-radius:14px;overflow:hidden;border:1px solid rgba(0,0,0,.12);"></div>
 
 <script>
 (function(){
@@ -140,31 +220,56 @@ A prototype trip gallery (placeholder images for now).
   }
   const markers = Array.from(seen.values());
 
-  const map = L.map('japan-map', { scrollWheelZoom: false });
+  const map = L.map('japan-map', { scrollWheelZoom:false });
 
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; OpenStreetMap contributors'
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+    maxZoom:19,
+    attribution:'&copy; OpenStreetMap contributors'
   }).addTo(map);
 
   const bounds = [];
-  for (const m of markers) {
+
+  for (const m of markers){
     const ll = [m.lat, m.lon];
     bounds.push(ll);
 
-    L.circleMarker(ll, {
-      radius: 6,
-      color: '#b00020',
-      fillColor: '#d0002a',
-      fillOpacity: 0.9,
-      weight: 1
+    const marker = L.circleMarker(ll,{
+      radius:6,
+      color:'#b00020',
+      fillColor:'#d0002a',
+      fillOpacity:0.9,
+      weight:1
     }).addTo(map).bindPopup(m.place);
+
+    marker.on('click',function(){
+      const cards = document.querySelectorAll('.sq-card');
+      cards.forEach(card=>{
+        if(card.dataset.place===m.place){
+          card.classList.remove('dim');
+          card.classList.add('highlight');
+        }else{
+          card.classList.remove('highlight');
+          card.classList.add('dim');
+        }
+      });
+      const grid=document.querySelector('.sq-grid');
+      if(grid) grid.scrollIntoView({behavior:'smooth'});
+    });
   }
 
-  if (bounds.length) {
-    map.fitBounds(bounds, { padding: [20, 20] });
-  } else {
-    map.setView([35, 135], 5); // default Japan-ish view
+  if(bounds.length){
+    map.fitBounds(bounds,{padding:[20,20]});
+  }else{
+    map.setView([35,135],5);
   }
+
+  map.on('click',function(){
+    const cards=document.querySelectorAll('.sq-card');
+    cards.forEach(card=>{
+      card.classList.remove('dim');
+      card.classList.remove('highlight');
+    });
+  });
+
 })();
 </script>
