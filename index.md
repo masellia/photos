@@ -28,9 +28,11 @@ Nothing strikes me more than the infinite realizations of Mother Nature in all c
 
 I am attracted by all forms of life, and in particular by one of the most peculiar manifestations of Nature’s richness: human beings, with the complexity and variety of their relations.
 
+<p>
 Here is a collection of pictures from scenes that hit me during my trips. No second purpose. Just sharing my sight.
+</p>
 
-
+<p>
 I love isolated environments to stare at the fundamental blocks of Nature.  
 I love crowded places to interact with everyday life and gaze at instincts, emotions, and feelings — 
 especially when exposed to my camera.
