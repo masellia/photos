@@ -20,7 +20,22 @@ Here are snapshots of life-in-motion, different from my usual horizon.
 
   .sq-card{border:1px solid rgba(0,0,0,.12);border-radius:14px;overflow:hidden;background:rgba(0,0,0,.02)}
   .sq-link{display:block;text-decoration:none;color:inherit}
-  .sq-thumb{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:rgba(0,0,0,.04)}
+
+.sq-thumb{
+  width:100%;
+  aspect-ratio:4/3;
+  object-fit:cover;
+  display:block;
+  background:rgba(0,0,0,.04);
+  filter: grayscale(20%);
+  transition: filter 0.35s ease, transform 0.35s ease;
+}
+
+.sq-card:hover .sq-thumb{
+  filter: grayscale(0%);
+  transform: scale(1.02);
+}
+
   .sq-meta{padding:10px 12px}
   .sq-name{margin:0 0 4px 0;font-size:1rem;line-height:1.2}
   .sq-line{margin:0;color:rgba(0,0,0,.75);font-size:.9rem;line-height:1.25}
@@ -96,8 +111,9 @@ Here are snapshots of life-in-motion, different from my usual horizon.
 
 <hr style="margin: 2rem 0;">
 
+<p>
 <h2>Map</h2>
-<p style="margin-top:-.5rem;color:rgba(0,0,0,.7)">Locations of photos in this section (one marker per unique place).</p>
+</p>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
