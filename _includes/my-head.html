@@ -6,12 +6,18 @@
 
 <!-- Typography -->
 <style>
-  /* Justify body text in the main content area */
-  main p, main li,
-  .content p, .content li,
-  .page-content p, .page-content li,
-  .post-content p, .post-content li {
-    text-align: justify;
+  /* Hydejack main content is usually inside #_main */
+  #_main p,
+  #_main li,
+  #_main blockquote,
+  #_main .content p,
+  #_main .content li,
+  #_main .page-content p,
+  #_main .page-content li,
+  #_main .post-content p,
+  #_main .post-content li {
+    text-align: justify !important;
+    text-justify: inter-word;
     hyphens: auto;
   }
 </style>
