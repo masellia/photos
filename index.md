@@ -26,7 +26,10 @@ Everyday theoretical physicist, traveller for work and for passion.
 Nothing strikes me more than the infinite realizations of Mother Nature in all corners of our Universe—from empty spots in distant galaxies to the isolated land we call Earth.
 </p>
 
+<p>
 I am attracted by all forms of life, and in particular by one of the most peculiar manifestations of Nature’s richness: human beings, with the complexity and variety of their relations.
+
+</p>
 
 <p>
 Here is a collection of pictures from scenes that hit me during my trips. No second purpose. Just sharing my sight.
