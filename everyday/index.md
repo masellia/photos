@@ -90,6 +90,19 @@ Humans and their tools —busy with life, I witness on my daily path.
   box-shadow: 0 0 0 2px #b00020;
 }
 
+/* Thumbnail caption styling */
+.sq-meta{
+  padding: 10px 12px;
+  text-align: left !important;
+  font-size: 0.9rem;
+  line-height: 1.35;
+  hyphens: none !important;
+}
+
+.sq-place{ font-weight: 500; }
+.sq-date{ opacity: 0.85; }
+.sq-camera{ opacity: 0.75; font-size: 0.85rem; }
+
 </style>
 
 <div id="top"></div>
@@ -105,13 +118,13 @@ Humans and their tools —busy with life, I witness on my daily path.
    <a class="sq-link" href="#{{ id }}">
       <img class="sq-thumb" src="{{ thumb | relative_url }}" alt="{{ p.name | escape }}">
     </a>
-    <div class="sq-meta">
-      <h3 class="sq-name">{{ p.name }}</h3>
-      <p class="sq-line">{{ p.place }} — {{ p.date }}</p>      
-      {% if p.camera and p.camera != "" %}
-        <p class="sq-line">Camera: {{ p.camera }}</p>
-      {% endif %}
-    </div>
+<div class="sq-meta">
+  <div class="sq-place">{{ p.place }}</div>
+  <div class="sq-date">{{ p.date }}</div>
+  {% if p.camera and p.camera != "" %}
+    <div class="sq-camera">Camera: {{ p.camera }}</div>
+  {% endif %}
+</div>
   </article>
 {% endfor %}
 </div>
