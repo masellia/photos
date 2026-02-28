@@ -6,6 +6,15 @@
   lat: 48.8130
   lon: -2.2385
 
+- file: Biking_in_NY.jpg
+  name: Biking across Upper West Side Manhattan
+  place: New York, USA
+  date: 2025-09-14
+  camera: ""
+  lat: 40.7128
+  lon: -74.0060
+
+
 - file: Librai_Lisbona_210226.jpg
   name: Street bookseller
   place: Lisbon, Portugal
