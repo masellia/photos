@@ -65,6 +65,15 @@ Humans and their tools —busy with life, I witness on my daily path.
   opacity: 1;
   box-shadow: 0 0 0 2px #b00020;
 }
+
+/* Keep thumbnail captions left-aligned */
+.sq-meta,
+.sq-meta p,
+.sq-name,
+.sq-line {
+  text-align: left !important;
+}
+
 </style>
 
 <div id="top"></div>
