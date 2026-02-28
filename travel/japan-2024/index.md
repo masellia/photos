@@ -112,3 +112,59 @@ A prototype trip gallery (placeholder images for now).
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLB(); });
 })();
 </script>
+
+<hr style="margin: 2.5rem 0;">
+
+<h2>Map</h2>
+</p>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<div id="japan-map" style="height: 420px; border-radius: 14px; overflow: hidden; border: 1px solid rgba(0,0,0,.12);"></div>
+
+<script>
+(function(){
+  const raw = [
+    {% for p in site.data["travel-japan-2024"] %}
+      {% if p.lat and p.lon %}
+      { place: {{ p.place | jsonify }}, lat: {{ p.lat }}, lon: {{ p.lon }} }{% unless forloop.last %},{% endunless %}
+      {% endif %}
+    {% endfor %}
+  ];
+
+  const seen = new Map();
+  for (const m of raw) {
+    const key = `${m.place}|${m.lat.toFixed(4)}|${m.lon.toFixed(4)}`;
+    if (!seen.has(key)) seen.set(key, m);
+  }
+  const markers = Array.from(seen.values());
+
+  const map = L.map('japan-map', { scrollWheelZoom: false });
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  const bounds = [];
+  for (const m of markers) {
+    const ll = [m.lat, m.lon];
+    bounds.push(ll);
+
+    L.circleMarker(ll, {
+      radius: 6,
+      color: '#b00020',
+      fillColor: '#d0002a',
+      fillOpacity: 0.9,
+      weight: 1
+    }).addTo(map).bindPopup(m.place);
+  }
+
+  if (bounds.length) {
+    map.fitBounds(bounds, { padding: [20, 20] });
+  } else {
+    map.setView([35, 135], 5); // default Japan-ish view
+  }
+})();
+</script>
