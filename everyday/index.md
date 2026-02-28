@@ -19,7 +19,21 @@ Humans and their tools —busy with life, I witness on my daily path.
 
   .sq-card{border:1px solid rgba(0,0,0,.12);border-radius:14px;overflow:hidden;background:rgba(0,0,0,.02)}
   .sq-link{display:block;text-decoration:none;color:inherit}
-  .sq-thumb{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:rgba(0,0,0,.04)}
+  
+.sq-thumb{
+  width:100%;
+  aspect-ratio:4/3;
+  object-fit:cover;
+  display:block;
+  background:rgba(0,0,0,.04);
+  filter: grayscale(20%);
+  transition: filter 0.35s ease, transform 0.35s ease;
+}
+
+.sq-card:hover .sq-thumb{
+  filter: grayscale(0%);
+  transform: scale(1.02);
+}  
   .sq-meta{padding:10px 12px}
   .sq-name{margin:0 0 4px 0;font-size:1rem;line-height:1.2}
   .sq-line{margin:0;color:rgba(0,0,0,.75);font-size:.9rem;line-height:1.25}
