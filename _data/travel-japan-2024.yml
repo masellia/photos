@@ -1,15 +1,89 @@
-- file: Librai_Lisbona_210226.jpg
-  name: Placeholder 1
+- file: falcon2.jpg
+  name: Feeding falcons in Kyoto
+  place: Kyoto, Japan
+  date: 2024-02-01
+  camera: "Leica CL"
+  lat: 35.0116
+  lon: 135.7681
+
+- file: fest2.jpg
+  name: Throwing roasted soybeans @ the Setsubun Celebration in Kyoto
+  place: Kyoto, Japan
+  date: 2024-04-01
+  camera: "Leica CL"
+  lat: 35.6762
+  lon: 135.7681
+  
+- file: fest3.jpg
+  name: Selfie @ the Setsubun Celebration in Kyoto
+  place: Kyoto, Japan
+  date: 2024-04-01
+  camera: "Leica CL"
+  lat: 35.6762
+  lon: 135.7681
+
+- file: fest4.jpg
+  name: Group Picture @ the Setsubun Celebration in Kyoto
+  place: Kyoto, Japan
+  date: 2024-04-01
+  camera: "Leica CL"
+  lat: 35.6762
+  lon: 135.7681
+
+
+- file: hawaian.jpg
+  name: Faces at the Tokyo shrine
   place: Tokyo, Japan
   date: 2024-04-01
-  camera: ""
+  camera: "Leica CL"
   lat: 35.6762
   lon: 139.6503
 
-- file: Musicanti_Lisbona_210226.jpg
-  name: Placeholder 2
-  place: Kyoto, Japan
+- file: margherite.jpg
+  name: Yellow in Tokyo
+  place: Tokyo, Japan
   date: 2024-04-01
-  camera: ""
-  lat: 35.0116
-  lon: 135.7681
+  camera: "Leica CL"
+  lat: 35.6762
+  lon: 139.6503
+
+
+- file: metro2.jpg
+  name: Upsidedown
+  place: Tokyo, Japan
+  date: 2024-04-01
+  camera: "Leica CL"
+  lat: 35.6762
+  lon: 139.6503
+
+- file: pano.jpg
+  name: Holy Shrine in Miyajima
+  place: Tokyo, Japan
+  date: 2024-04-01
+  camera: "Leica CL"
+  lat: 34.2732
+  lon: 132.3052
+
+- file: pano.jpg
+  name: Holy Shrine in Miyajima
+  place: Miyajima, Japan
+  date: 2024-04-01
+  camera: "Leica CL"
+  lat: 34.2732
+  lon: 132.3052
+
+- file: signore_toprint.jpg
+  name: Tea time
+  place: Tokyo, Japan
+  date: 2024-04-01
+  camera: "Leica CL"
+  lat: 34.2732
+  lon: 132.3052
+
+- file: vicoloBW.jpg
+  name: An alley in Tokyo 
+  place: Tokyo, Japan
+  date: 2024-04-01
+  camera: "Leica CL"
+  lat: 34.2732
+  lon: 132.3052
