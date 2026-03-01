@@ -58,8 +58,8 @@ Here are snapshots of life-in-motion, different from my usual horizon.
       <img class="sq-thumb" src="{{ '/assets/img/travel/japan/thumbs/falcon2.jpg' | relative_url }}" alt="Japan 2024">
     </a>
     <div class="sq-meta">
-      <div class="sq-name">Japan 2024</div>
-      <div class="sq-place">Prototype trip gallery</div>
+      <div class="sq-name">Japan</div>
+#      <div class="sq-place">Prototype trip gallery</div>
     </div>
   </article>
 </div>
