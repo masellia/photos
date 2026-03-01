@@ -40,7 +40,7 @@ Here are snapshots of life-in-motion, different from my usual horizon.
   <!-- EGYPT -->
   <article class="sq-card">
    <a class="sq-link" href="{{ '/travel/egypt/' | relative_url }}">
-     <img class="sq-thumb" src="{{ '/assets/img/travel/egypt/thumbs/placeholder.jpg' | relative_url }}" alt="Egypt">
+     <img class="sq-thumb" src="{{ '/assets/img/travel/egypt/thumbs/philae.jpg' | relative_url }}" alt="Egypt">
    </a>
    <div class="sq-meta">
      <div class="sq-name">Egypt</div>
