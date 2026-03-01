@@ -59,7 +59,6 @@ Here are snapshots of life-in-motion, different from my usual horizon.
     </a>
     <div class="sq-meta">
       <div class="sq-name">Japan</div>
-#      <div class="sq-place">Prototype trip gallery</div>
     </div>
   </article>
 </div>
