@@ -4,9 +4,6 @@ title: Turkey
 permalink: /travel/turkey/
 ---
 
-<p style="margin-top:-.5rem;color:rgba(0,0,0,.7)">
-A prototype trip gallery.
-</p>
 
 <style>
 /* GRID */
