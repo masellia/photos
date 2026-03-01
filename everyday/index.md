@@ -22,7 +22,7 @@ Humans and their tools —busy with life, I witness on my daily path.
   
 .sq-thumb{
   width:100%;
-  aspect-ratio: 3/2;
+  aspect-ratio: 1;
   object-fit:cover;
   display:block;
   background:rgba(0,0,0,.04);
