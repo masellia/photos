@@ -81,17 +81,6 @@ Here are snapshots of life-in-motion, different from my usual horizon.
     </div>
   </article>
 
-  <!-- TURKEY -->
-  <article class="sq-card">
-    <a class="sq-link" href="{{ '/travel/turkey/' | relative_url }}">
-      <img class="sq-thumb" src="{{ '/assets/img/travel/turkey/thumbs/placeholder.jpg' | relative_url }}" alt="Turkey">
-    </a>
-    <div class="sq-meta">
-      <div class="sq-name">Turkey</div>
-      <div class="sq-place">Field notes</div>
-    </div>
-  </article>
-
   <!-- MEXICO -->
   <article class="sq-card">
     <a class="sq-link" href="{{ '/travel/mexico/' | relative_url }}">
@@ -99,6 +88,17 @@ Here are snapshots of life-in-motion, different from my usual horizon.
     </a>
     <div class="sq-meta">
       <div class="sq-name">Mexico</div>
+      <div class="sq-place">Field notes</div>
+    </div>
+  </article>
+
+  <!-- TURKEY -->
+  <article class="sq-card">
+    <a class="sq-link" href="{{ '/travel/turkey/' | relative_url }}">
+      <img class="sq-thumb" src="{{ '/assets/img/travel/turkey/thumbs/placeholder.jpg' | relative_url }}" alt="Turkey">
+    </a>
+    <div class="sq-meta">
+      <div class="sq-name">Turkey</div>
       <div class="sq-place">Field notes</div>
     </div>
   </article>
