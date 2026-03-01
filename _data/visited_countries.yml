@@ -1,0 +1,9 @@
+- name: Japan
+  slug: japan
+  iso2: JP
+- name: Mexico
+  slug: mexico
+  iso2: MX
+- name: Turkey
+  slug: turkey
+  iso2: TR
