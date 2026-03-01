@@ -22,11 +22,11 @@
 
 <script>
 (function(){
-  const visited = {
-    {% for c in site.data.visited_countries %}
-      "{{ c.iso2 }}": {{ ("/travel/" | append: c.slug | append: "/") | relative_url | jsonify }}{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  };
+ const visited = {
+  {% for c in site.data.visited_countries %}
+    "{{ c.iso2 | upcase }}": "{{ '/travel/' | append: c.slug | append: '/' | relative_url }}"{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+};  
 
   const svg = document.querySelector("#atlas-wrap svg");
   if (!svg) return;
