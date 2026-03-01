@@ -30,7 +30,6 @@
   lat: 35.6762
   lon: 135.7681
 
-
 - file: hawaian.jpg
   name: Faces at the Tokyo shrine
   place: Tokyo, Japan
@@ -56,13 +55,6 @@
   lat: 35.6762
   lon: 139.6503
 
-- file: pano.jpg
-  name: Holy Shrine in Miyajima
-  place: Tokyo, Japan
-  date: 2024-04-01
-  camera: "Leica CL"
-  lat: 34.2732
-  lon: 132.3052
 
 - file: pano.jpg
   name: Holy Shrine in Miyajima
@@ -81,7 +73,7 @@
   lon: 132.3052
 
 - file: vicoloBW.jpg
-  name: An alley in Tokyo 
+  name: An alley in Tokyo
   place: Tokyo, Japan
   date: 2024-04-01
   camera: "Leica CL"
