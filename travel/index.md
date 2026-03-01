@@ -138,3 +138,6 @@ Here are snapshots of life-in-motion, different from my usual horizon.
   });
 })();
 </script>
+
+<h2>Visited Atlas</h2>
+{% include visited_atlas.html %}

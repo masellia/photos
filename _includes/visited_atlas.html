@@ -1,0 +1,76 @@
+<style>
+/* atlas base styles */
+#atlas-wrap svg{width:100%;height:auto;display:block}
+#atlas-wrap path{fill: rgba(0,0,0,.06); stroke: rgba(0,0,0,.18); stroke-width:.6; transition:fill .18s ease,opacity .18s ease}
+
+/* visited coloring: works whether we mark the path OR a parent <g> */
+#atlas-wrap path.visited,
+#atlas-wrap g.visited path{
+  fill: rgba(176,0,32,.35) !important;
+  stroke: rgba(176,0,32,.75) !important;
+}
+#atlas-wrap path.visited:hover,
+#atlas-wrap g.visited path:hover{
+  fill: rgba(176,0,32,.55) !important;
+  cursor:pointer;
+}
+</style>
+
+<div id="atlas-wrap">
+  {% include world.svg %}
+</div>
+
+<script>
+(function(){
+  const visited = {
+    {% for c in site.data.visited_countries %}
+      "{{ c.iso2 }}": {{ ("/travel/" | append: c.slug | append: "/") | relative_url | jsonify }}{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  };
+
+  const svg = document.querySelector("#atlas-wrap svg");
+  if (!svg) return;
+
+  function tryFindElement(root, iso) {
+    const variants = [iso.toLowerCase(), iso.toUpperCase(), iso];
+    for (const v of variants) {
+      let el = root.querySelector("#" + CSS.escape(v));
+      if (el) return el;
+      el = root.querySelector('[id$="' + v + '"]');
+      if (el) return el;
+    }
+    return null;
+  }
+
+  function markVisited(el){
+    const tag = (el.tagName || "").toLowerCase();
+
+    if (tag === "path") {
+      el.classList.add("visited");
+      el.style.fill = "rgba(176,0,32,0.35)";
+      el.style.stroke = "rgba(176,0,32,0.75)";
+      return;
+    }
+
+    // for <g> (e.g. Japan is <g id="jp">), style its descendant paths
+    el.classList.add("visited");
+    const paths = el.querySelectorAll("path");
+    paths.forEach(p => {
+      p.classList.add("visited");
+      p.style.fill = "rgba(176,0,32,0.35)";
+      p.style.stroke = "rgba(176,0,32,0.75)";
+    });
+  }
+
+  Object.keys(visited).forEach(function(iso){
+    const el = tryFindElement(svg, iso);
+    if (!el) return;
+
+    markVisited(el);
+
+    el.addEventListener("click", function(){
+      window.location.href = visited[iso];
+    });
+  });
+})();
+</script>
