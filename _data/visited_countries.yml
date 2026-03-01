@@ -1,3 +1,6 @@
+- name: Egypt
+  slug: egypt
+  iso2: EG
 - name: Japan
   slug: japan
   iso2: JP
