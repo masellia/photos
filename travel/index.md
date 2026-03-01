@@ -77,7 +77,6 @@ Here are snapshots of life-in-motion, different from my usual horizon.
     </a>
     <div class="sq-meta">
       <div class="sq-name">Japan</div>
-      <div class="sq-place">Field notes</div>
     </div>
   </article>
 
@@ -88,7 +87,6 @@ Here are snapshots of life-in-motion, different from my usual horizon.
     </a>
     <div class="sq-meta">
       <div class="sq-name">Mexico</div>
-      <div class="sq-place">Field notes</div>
     </div>
   </article>
 
@@ -99,7 +97,6 @@ Here are snapshots of life-in-motion, different from my usual horizon.
     </a>
     <div class="sq-meta">
       <div class="sq-name">Turkey</div>
-      <div class="sq-place">Field notes</div>
     </div>
   </article>
 
