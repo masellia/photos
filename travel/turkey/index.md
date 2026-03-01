@@ -1,6 +1,6 @@
 ---
 layout: page
-title: turkey
+title: Turkey
 permalink: /travel/turkey/
 ---
 
