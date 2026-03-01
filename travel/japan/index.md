@@ -4,10 +4,6 @@ title: Japan
 permalink: /travel/japan/
 ---
 
-<p style="margin-top:-.5rem;color:rgba(0,0,0,.7)">
-A prototype trip gallery.
-</p>
-
 <style>
 /* GRID */
 .sq-grid{
