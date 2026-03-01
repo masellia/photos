@@ -73,7 +73,7 @@ Here are snapshots of life-in-motion, different from my usual horizon.
   <!-- JAPAN -->
   <article class="sq-card">
     <a class="sq-link" href="{{ '/travel/japan/' | relative_url }}">
-      <img class="sq-thumb" src="{{ '/assets/img/travel/japan/thumbs/falcon2.jpg' | relative_url }}" alt="Japan">
+      <img class="sq-thumb" src="{{ '/assets/img/travel/japan/thumbs/geisha2.jpg' | relative_url }}" alt="Japan">
     </a>
     <div class="sq-meta">
       <div class="sq-name">Japan</div>
@@ -84,7 +84,7 @@ Here are snapshots of life-in-motion, different from my usual horizon.
   <!-- MEXICO -->
   <article class="sq-card">
     <a class="sq-link" href="{{ '/travel/mexico/' | relative_url }}">
-      <img class="sq-thumb" src="{{ '/assets/img/travel/mexico/thumbs/placeholder.jpg' | relative_url }}" alt="Mexico">
+      <img class="sq-thumb" src="{{ '/assets/img/travel/mexico/thumbs/Mamma.jpg' | relative_url }}" alt="Mexico">
     </a>
     <div class="sq-meta">
       <div class="sq-name">Mexico</div>
@@ -95,7 +95,7 @@ Here are snapshots of life-in-motion, different from my usual horizon.
   <!-- TURKEY -->
   <article class="sq-card">
     <a class="sq-link" href="{{ '/travel/turkey/' | relative_url }}">
-      <img class="sq-thumb" src="{{ '/assets/img/travel/turkey/thumbs/placeholder.jpg' | relative_url }}" alt="Turkey">
+      <img class="sq-thumb" src="{{ '/assets/img/travel/turkey/thumbs/Carpet1.jpg' | relative_url }}" alt="Turkey">
     </a>
     <div class="sq-meta">
       <div class="sq-name">Turkey</div>

@@ -1,7 +1,47 @@
-- file: placeholder.jpg
-  name: Placeholder
+- file: Carpet1.jpg
+  name: Laying the carpets for the prayer
   place: Istanbul, Turkey
-  date: 2022-01-01
-  camera: ""
+  date: 2023-09-01
+  camera: "Leica CL"
+  lat: 41.0082
+  lon: 28.9784
+
+- file: carpet2.jpg
+  name: Preparing for the prayer
+  place: Istanbul, Turkey
+  date: 2023-09-01
+  camera: "Leica CL"
+  lat: 41.0082
+  lon: 28.9784
+
+- file: carpetman.jpg
+  name: Carpet maker in Istanbul
+  place: Istanbul, Turkey
+  date: 2023-09-01
+  camera: "Leica CL"
+  lat: 41.0082
+  lon: 28.9784
+
+- file: champs.jpg
+  name: A playful alley in Istanbul
+  place: Istanbul, Turkey
+  date: 2023-09-01
+  camera: "Leica CL"
+  lat: 41.0082
+  lon: 28.9784
+
+- file: fountains.jpg
+  name: Wudu (ritual ablution) before prayer
+  place: Istanbul, Turkey
+  date: 2023-09-01
+  camera: "Leica CL"
+  lat: 41.0082
+  lon: 28.9784
+
+- file: recycling.jpg
+  name: Daily recycling in Istanbul
+  place: Istanbul, Turkey
+  date: 2023-09-01
+  camera: "Leica CL"
   lat: 41.0082
   lon: 28.9784

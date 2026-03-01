@@ -1,7 +1,41 @@
-- file: placeholder.jpg
-  name: Placeholder
-  place: Mexico City, Mexico
-  date: 2023-01-01
-  camera: ""
-  lat: 19.4326
-  lon: -99.1332
+- file: Caballero.jpg
+  name: Relaxing in Teotihuac
+  place: San Juan Teotihuacán, Mexico
+  date: 2015-05-01
+  camera: "Canon 450D"
+  lat: 19.6861
+  lon: -98.8716
+
+- file: kids2.jpg
+  name: Playing in Taxco
+  place: Taxco, Mexico
+  date: 2015-05-01
+  camera: "Canon 450D"
+  lat: 18.5565
+  lon: -99.6051
+  
+- file: mamas2.jpg
+  name: Refreshments at the Market
+  place: Taxco, Mexico
+  date: 2015-05-01
+  camera: "Canon 450D"
+  lat: 18.5565
+  lon: -99.6051
+
+- file: mamas2.jpg
+  name: Mother and daughter
+  place: Taxco, Mexico
+  date: 2015-05-01
+  camera: "Canon 450D"
+  lat: 18.5565
+  lon: -99.6051
+
+
+- file: works.jpg
+  name: Artisan at work
+  place: Taxco, Mexico
+  date: 2015-05-01
+  camera: "Canon 450D"
+  lat: 18.5565
+  lon: -99.6051
+
