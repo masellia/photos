@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Japan 2024
+title: Japan
 permalink: /travel/japan/
 ---
 
