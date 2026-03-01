@@ -37,6 +37,16 @@ Here are snapshots of life-in-motion, different from my usual horizon.
 
 <div class="sq-grid">
 
+  <!-- EGYPT -->
+  <article class="sq-card">
+   <a class="sq-link" href="{{ '/travel/egypt/' | relative_url }}">
+     <img class="sq-thumb" src="{{ '/assets/img/travel/egypt/thumbs/placeholder.jpg' | relative_url }}" alt="Egypt">
+   </a>
+   <div class="sq-meta">
+     <div class="sq-name">Egypt</div>
+   </div>
+  </article>
+
   <!-- JAPAN -->
   <article class="sq-card">
     <a class="sq-link" href="{{ '/travel/japan/' | relative_url }}">
