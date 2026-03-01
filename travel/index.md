@@ -54,8 +54,8 @@ Here are snapshots of life-in-motion, different from my usual horizon.
 
 <div class="sq-grid">
   <article class="sq-card">
-    <a class="sq-link" href="{{ '/travel/japan-2024/' | relative_url }}">
-      <img class="sq-thumb" src="{{ '/assets/img/travel/japan-2024/thumbs/falcon2.jpg' | relative_url }}" alt="Japan 2024">
+    <a class="sq-link" href="{{ '/travel/japan/' | relative_url }}">
+      <img class="sq-thumb" src="{{ '/assets/img/travel/japan/thumbs/falcon2.jpg' | relative_url }}" alt="Japan 2024">
     </a>
     <div class="sq-meta">
       <div class="sq-name">Japan 2024</div>

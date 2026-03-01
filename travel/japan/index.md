@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Japan 2024
-permalink: /travel/japan-2024/
+permalink: /travel/japan/
 ---
 
 <p style="margin-top:-.5rem;color:rgba(0,0,0,.7)">
@@ -117,11 +117,11 @@ A prototype trip gallery.
 
 <!-- GRID -->
 <div class="sq-grid">
-{% assign items = site.data["travel-japan-2024"] | sort: "date" | reverse %}
+{% assign items = site.data["travel-japan"] | sort: "date" | reverse %}
 {% for p in items %}
   <article class="sq-card" data-place="{{ p.place | escape }}">
-    <a href="{{ '/assets/img/travel/japan-2024/full/' | append: p.file | relative_url }}" class="sq-a">
-      <img class="sq-thumb" src="{{ '/assets/img/travel/japan-2024/thumbs/' | append: p.file | relative_url }}" alt="{{ p.name | escape }}">
+    <a href="{{ '/assets/img/travel/japan/full/' | append: p.file | relative_url }}" class="sq-a">
+      <img class="sq-thumb" src="{{ '/assets/img/travel/japan/thumbs/' | append: p.file | relative_url }}" alt="{{ p.name | escape }}">
     </a>
     <div class="sq-meta">
       <div class="sq-name">{{ p.name }}</div>
@@ -206,7 +206,7 @@ A prototype trip gallery.
 <script>
 (function(){
   const raw = [
-    {% for p in site.data["travel-japan-2024"] %}
+    {% for p in site.data["travel-japan"] %}
       {% if p.lat and p.lon %}
       { place: {{ p.place | jsonify }}, lat: {{ p.lat }}, lon: {{ p.lon }} }{% unless forloop.last %},{% endunless %}
       {% endif %}
