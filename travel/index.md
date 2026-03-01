@@ -86,17 +86,17 @@ Here are snapshots of life-in-motion, different from my usual horizon.
       <img class="sq-thumb" src="{{ '/assets/img/travel/mexico/thumbs/Mamma.jpg' | relative_url }}" alt="Mexico">
     </a>
     <div class="sq-meta">
-      <div class="sq-name">Mexico</div>
+      <div class="sq-name">mexico</div>
     </div>
   </article>
 
   <!-- TURKEY -->
   <article class="sq-card">
     <a class="sq-link" href="{{ '/travel/turkey/' | relative_url }}">
-      <img class="sq-thumb" src="{{ '/assets/img/travel/turkey/thumbs/Carpet1.jpg' | relative_url }}" alt="Turkey">
+      <img class="sq-thumb" src="{{ '/assets/img/travel/turkey/thumbs/carpet1.jpg' | relative_url }}" alt="Turkey">
     </a>
     <div class="sq-meta">
-      <div class="sq-name">Turkey</div>
+      <div class="sq-name">turkey</div>
     </div>
   </article>
 
