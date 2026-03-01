@@ -1,12 +1,27 @@
+- name: Brasil
+  slug: brasil
+  iso2: BR
 - name: Egypt
   slug: egypt
   iso2: EG
+- name: India
+  slug: india
+  iso2: IN
 - name: Japan
   slug: japan
   iso2: JP
+- name: Jordan
+  slug: jordan
+  iso2: JO
 - name: Mexico
   slug: mexico
   iso2: MX
+- name: Mongolia
+  slug: mongolia
+  iso2: MN
+- name: Palestine
+  slug: palestine
+  iso2: PS
 - name: Turkey
   slug: turkey
   iso2: TR
