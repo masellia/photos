@@ -25,7 +25,7 @@ permalink: /travel/mexico/
 
 .sq-thumb{
   width:100%;
-  aspect-ratio:4/3;
+  aspect-ratio: 3/2;
   object-fit:cover;
   display:block;
   background:rgba(0,0,0,.04);
