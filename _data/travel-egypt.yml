@@ -38,7 +38,7 @@
   lat: 24.0889
   lon: 32.8998
   
-  - file: marinaio.jpg
+- file: marinaio.jpg
   name: The captain of the feluca
   place: Aswan, Egypt
   date: 2025-04-01
@@ -46,7 +46,7 @@
   lat: 24.0889
   lon: 32.8998
   
-  - file: philae.jpg
+- file: philae.jpg
   name: The temple of Philae
   place: Aswan, Egypt
   date: 2025-04-01
@@ -77,4 +77,3 @@
   camera: "Leica CL"
   lat: 24.4521
   lon: 32.9284
-
