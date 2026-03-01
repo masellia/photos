@@ -50,7 +50,7 @@ Here are snapshots of life-in-motion, different from my usual horizon.
   <!-- JAPAN -->
   <article class="sq-card">
     <a class="sq-link" href="{{ '/travel/japan/' | relative_url }}">
-      <img class="sq-thumb" src="{{ '/assets/img/travel/japan/thumbs/geisha3.jpg' | relative_url }}" alt="Japan">
+      <img class="sq-thumb" src="{{ '/assets/img/travel/japan/thumbs/geisha4.jpg' | relative_url }}" alt="Japan">
     </a>
     <div class="sq-meta">
       <div class="sq-name">Japan</div>
