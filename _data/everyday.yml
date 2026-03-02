@@ -38,3 +38,27 @@
   camera: "Leica Q3"
   lat: 41.1579
   lon: -8.6291
+  
+- file: chess.jpg
+  name: Playing in Piazza del Fico
+  place: Rome, Italy
+  date: 2016-01-01
+  camera: "Leica CL"
+  lat: 41.8967
+  lon: -12.4822
+
+- file: mulino.jpg
+  name: The old water mill wheel
+  place: Morcone, Italy
+  date: 2023-01-05
+  camera: "Leica CL"
+  lat: 41.3420
+  lon: -14.6647
+
+- file: fire_presepe.jpg
+  name: A Ndocciata, i.e. a torches parade to celebrate nativity
+  place: Morcone, Italy
+  date: 2023-01-05
+  camera: "Leica CL"
+  lat: 41.3420
+  lon: -14.6647
