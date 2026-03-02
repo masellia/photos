@@ -4,7 +4,7 @@
   date: 2022-12-11
   camera: “Leica CL”
   lat: 57.2742
-  lon: 5.5163
+  lon: -5.51605
   
 - file: Castle2.jpg
   name: The path to the Eilean donan Castle
@@ -12,7 +12,7 @@
   date: 2022-12-11
   camera: “Leica CL”
   lat: 57.2742
-  lon: 5.5163
+  lon: -5.51605
   
 - file: Barca Specchio.jpg
   name: A scottish mirror
@@ -20,4 +20,4 @@
   date: 2022-12-11
   camera: “Leica CL”
   lat: 57.2742
-  lon: 5.5163
+  lon: -5.51605 
