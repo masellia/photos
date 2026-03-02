@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Japan
-permalink: /travel/japan/
+title: Scotland
+permalink: /travel/scotland/
 ---
 
 <style>
@@ -113,11 +113,11 @@ permalink: /travel/japan/
 
 <!-- GRID -->
 <div class="sq-grid">
-{% assign items = site.data["travel-japan"] | sort: "date" | reverse %}
+{% assign items = site.data["travel-scotland"] | sort: "date" | reverse %}
 {% for p in items %}
   <article class="sq-card" data-place="{{ p.place | escape }}">
-    <a href="{{ '/assets/img/travel/japan/full/' | append: p.file | relative_url }}" class="sq-a">
-      <img class="sq-thumb" src="{{ '/assets/img/travel/japan/thumbs/' | append: p.file | relative_url }}" alt="{{ p.name | escape }}">
+    <a href="{{ '/assets/img/travel/scotland/full/' | append: p.file | relative_url }}" class="sq-a">
+      <img class="sq-thumb" src="{{ '/assets/img/travel/scotland/thumbs/' | append: p.file | relative_url }}" alt="{{ p.name | escape }}">
     </a>
     <div class="sq-meta">
       <div class="sq-name">{{ p.name }}</div>
@@ -197,12 +197,12 @@ permalink: /travel/japan/
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
-<div id="japan-map" style="height:420px;border-radius:14px;overflow:hidden;border:1px solid rgba(0,0,0,.12);"></div>
+<div id="scotland-map" style="height:420px;border-radius:14px;overflow:hidden;border:1px solid rgba(0,0,0,.12);"></div>
 
 <script>
 (function(){
   const raw = [
-    {% for p in site.data["travel-japan"] %}
+    {% for p in site.data["travel-scotland"] %}
       {% if p.lat and p.lon %}
       { place: {{ p.place | jsonify }}, lat: {{ p.lat }}, lon: {{ p.lon }} }{% unless forloop.last %},{% endunless %}
       {% endif %}
@@ -216,7 +216,7 @@ permalink: /travel/japan/
   }
   const markers = Array.from(seen.values());
 
-  const map = L.map('japan-map', { scrollWheelZoom:false });
+  const map = L.map('scotland-map', { scrollWheelZoom:false });
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
     maxZoom:19,
