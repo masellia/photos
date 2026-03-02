@@ -73,7 +73,7 @@ Here are snapshots of life-in-motion, different from my usual horizon.
       <img class="sq-thumb" src="{{ '/assets/img/travel/scotland/thumbs/Barca Specchio.jpg' | relative_url }}" alt="Scotland">
     </a>
     <div class="sq-meta">
-      <div class="sq-name">Turkey</div>
+      <div class="sq-name"> Scotland </div>
     </div>
   </article>
 
