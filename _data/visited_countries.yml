@@ -22,6 +22,9 @@
 - name: Palestine
   slug: palestine
   iso2: PS
+- name: Scotland
+  slug: scotland
+  iso2: GB
 - name: Turkey
   slug: turkey
   iso2: TR
