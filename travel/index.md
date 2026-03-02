@@ -67,6 +67,16 @@ Here are snapshots of life-in-motion, different from my usual horizon.
     </div>
   </article>
 
+  <!-- SCOTLAND -->
+  <article class="sq-card">
+    <a class="sq-link" href="{{ '/travel/scotland/' | relative_url }}">
+      <img class="sq-thumb" src="{{ '/assets/img/travel/scotland/thumbs/Barca Specchio.jpg' | relative_url }}" alt="Scotland">
+    </a>
+    <div class="sq-meta">
+      <div class="sq-name">Turkey</div>
+    </div>
+  </article>
+
   <!-- TURKEY -->
   <article class="sq-card">
     <a class="sq-link" href="{{ '/travel/turkey/' | relative_url }}">
