@@ -1,190 +1,244 @@
 ---
 layout: page
-title: Everyday
-description: Daily life — small moments, big light.
+title: Everyday Life
+permalink: /everyday/
+menu: true
+order: 1
 ---
 
+
+Humans and their tools —busy with life, I witness on my daily path.
+
+
+
 <style>
-  .sq-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
-    gap:14px;
-    margin-top:1rem;
+  .sq-grid{display:grid;gap:16px;margin:1.25rem 0;grid-template-columns:repeat(4,minmax(0,1fr))}
+  @media (max-width:1100px){.sq-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+  @media (max-width:800px){.sq-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  @media (max-width:520px){.sq-grid{grid-template-columns:repeat(1,minmax(0,1fr))}}
+
+  .sq-card{border:1px solid rgba(0,0,0,.12);border-radius:14px;overflow:hidden;background:rgba(0,0,0,.02)}
+  .sq-link{display:block;text-decoration:none;color:inherit}
+  
+.sq-thumb{
+  width:100%;
+  aspect-ratio: 1;
+  object-fit:cover;
+  display:block;
+  background:rgba(0,0,0,.04);
+  filter: grayscale(20%);
+  transition: filter 0.35s ease, transform 0.35s ease;
+}
+
+.sq-card:hover .sq-thumb{
+  filter: grayscale(0%);
+  transform: scale(1.02);
+}  
+  .sq-meta{padding:10px 12px}
+  .sq-name{margin:0 0 4px 0;font-size:1rem;line-height:1.2}
+  .sq-line{margin:0;color:rgba(0,0,0,.75);font-size:.9rem;line-height:1.25}
+
+  /* CSS lightbox */
+  .sq-lightbox{
+    position:fixed;inset:0;display:none;align-items:center;justify-content:center;
+    background:rgba(0,0,0,.9);z-index:9999;padding:24px;
   }
-  .sq-card{
-    border-radius:14px;
-    overflow:hidden;
-    background:rgba(0,0,0,.02);
-    border:1px solid rgba(0,0,0,.06);
-    box-shadow:0 1px 8px rgba(0,0,0,.06);
-  }
-  .sq-link{display:block;color:inherit;text-decoration:none}
-  /* Make thumbnails taller / less “compressed”:
-     aspect-ratio: 1 means square; change to 4/5 etc if you want even taller */
-  .sq-thumb{
-    width:100%;
-    aspect-ratio:1;
-    object-fit:cover;
-    display:block;
-    background:rgba(0,0,0,.04);
-    filter:grayscale(20%);
-    transition:filter .35s ease,transform .35s ease;
-  }
-  .sq-link:hover .sq-thumb{filter:grayscale(0%);transform:scale(1.02)}
-  .sq-meta{
-    padding:10px 12px 12px;
-    line-height:1.25;
-  }
-  .sq-title{font-weight:700;font-size:0.98rem;margin:0 0 6px}
-  .sq-sub{opacity:.75;font-size:.88rem;margin:0}
-  .sq-chip{display:inline-block;margin-top:8px;font-size:.78rem;opacity:.65}
-  .sq-modal{
-    position:fixed; inset:0;
-    display:none;
-    align-items:center;
-    justify-content:center;
-    background:rgba(0,0,0,.78);
-    z-index:9999;
-    padding:18px;
-  }
-  .sq-modal[aria-hidden="false"]{display:flex}
-  .sq-modal-inner{
-    max-width:min(1100px,96vw);
-    max-height:92vh;
-    background:#0b0b0b;
-    border-radius:16px;
-    overflow:hidden;
-    box-shadow:0 20px 80px rgba(0,0,0,.5);
-    border:1px solid rgba(255,255,255,.08);
-  }
-  .sq-modal-img{
-    display:block;
-    max-width:100%;
-    max-height:80vh;
-    height:auto;
-    width:auto;
-    margin:0 auto;
-    background:#000;
-  }
-  .sq-modal-cap{
-    padding:12px 14px 14px;
-    color:rgba(255,255,255,.92);
-    border-top:1px solid rgba(255,255,255,.08);
-    font-size:.95rem;
-  }
-  .sq-modal-cap small{display:block;opacity:.7;margin-top:4px}
+  .sq-lightbox:target{display:flex !important}
+  .sq-lightbox-inner{max-width:min(1200px, 95vw);max-height:90vh}
+  .sq-lightbox-img{max-width:100%;max-height:75vh;display:block;margin:0 auto}
   .sq-close{
-    position:absolute;
-    top:14px; right:14px;
-    width:42px; height:42px;
-    border-radius:999px;
-    border:1px solid rgba(255,255,255,.25);
-    background:rgba(0,0,0,.35);
-    color:#fff;
-    font-size:22px;
-    line-height:40px;
-    text-align:center;
-    cursor:pointer;
-    user-select:none;
+    position:fixed;top:18px;right:18px;
+    background:rgba(255,255,255,.12);color:white;
+    padding:10px 12px;border-radius:10px;text-decoration:none;
+    font-size:14px;line-height:1;border:1px solid rgba(255,255,255,.25)
   }
+
+.sq-cap{
+  color: rgba(255,255,255,.85);
+  margin-top: 18px;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.sq-cap-place{
+  font-weight: 500;
+}
+
+.sq-cap-date{
+  opacity: 0.9;
+}
+
+.sq-cap-camera{
+  opacity: 0.8;
+  font-size: 0.85rem;
+}
+
+.sq-cap,
+.sq-cap div {
+  text-align: center !important;
+  hyphens: none !important;
+}
+
+  .sq-card.dim {
+  opacity: 0.25;
+  transition: opacity 0.2s ease;
+}
+
+.sq-card.highlight {
+  opacity: 1;
+  box-shadow: 0 0 0 2px #b00020;
+}
+
+/* Thumbnail caption styling */
+.sq-meta{
+  padding: 10px 12px;
+  text-align: left !important;
+  font-size: 0.9rem;
+  line-height: 1.35;
+  hyphens: none !important;
+}
+
+.sq-name{ font-weight: 600; }
+.sq-place{ opacity: 0.9; }
+.sq-date{ opacity: 0.8; }
+.sq-camera{ opacity: 0.7; font-size: 0.85rem; }
+
 </style>
 
-{%- comment -%}
-Load your data file:
-- If it's in _data/everyday.yml, use site.data.everyday
-- If it's named differently, adjust here.
-{%- endcomment -%}
+<div id="top"></div>
 
-{%- assign items = site.data.everyday | sort: "date" | reverse -%}
+{% assign items = site.data.everyday | sort: "date" | reverse %}
 
 <div class="sq-grid">
-  {%- for p in items -%}
-  {%- assign idx = forloop.index -%}
-  <article class="sq-card" id="card-{{ idx }}">
-    <a class="sq-link" href="#photo-{{ idx }}" data-open="photo-{{ idx }}">
-      <img class="sq-thumb"
-           src="{{ '/assets/img/everyday/thumbs/' | append: p.file | relative_url }}"
-           alt="{{ p.name | escape }}" />
-      <div class="sq-meta">
-        <p class="sq-title">{{ p.name }}</p>
-        <p class="sq-sub">{{ p.place }}</p>
-        <span class="sq-chip">
-          {{ p.date | date: "%B %Y" }} · {{ p.camera }}
-        </span>
-      </div>
+{% for p in items %}
+  {% assign full = '/assets/img/everyday/full/' | append: p.file %}
+  {% assign thumb = '/assets/img/everyday/thumbs/' | append: p.file %}
+  {% assign id = 'lb' | append: forloop.index %}
+
+  <article class="sq-card" data-place="{{ p.place | escape }}">
+   <a class="sq-link" href="#{{ id }}">
+      <img class="sq-thumb" src="{{ thumb | relative_url }}" alt="{{ p.name | escape }}">
     </a>
+<div class="sq-meta">
+  <div class="sq-name">{{ p.name }}</div>
+  <div class="sq-place">{{ p.place }}</div>
+  <div class="sq-date">{{ p.date | date: "%B %Y" }}</div>
+  {% if p.camera and p.camera != "" %}
+    <div class="sq-camera">Camera: {{ p.camera }}</div>
+  {% endif %}
+</div>
   </article>
-  {%- endfor -%}
+{% endfor %}
 </div>
 
-{%- for p in items -%}
-{%- assign idx = forloop.index -%}
-<div class="sq-modal" id="photo-{{ idx }}" aria-hidden="true" role="dialog" aria-label="{{ p.name | escape }}">
-  <div class="sq-close" data-close aria-label="Close">×</div>
-  <div class="sq-modal-inner">
-    <img class="sq-modal-img"
-         src="{{ '/assets/img/everyday/full/' | append: p.file | relative_url }}"
-         alt="{{ p.name | escape }}" />
-    <div class="sq-modal-cap">
-      <strong>{{ p.name }}</strong>
-      <small>{{ p.place }} · {{ p.date | date: "%Y-%m-%d" }} · {{ p.camera }}</small>
+{% for p in items %}
+  {% assign full = '/assets/img/everyday/full/' | append: p.file %}
+  {% assign id = 'lb' | append: forloop.index %}
+  <div id="{{ id }}" class="sq-lightbox">
+    <a class="sq-close" href="#top">✕ Close</a>
+    <div class="sq-lightbox-inner">
+      <img class="sq-lightbox-img" src="{{ full | relative_url }}" alt="{{ p.name | escape }}">
+
+<div class="sq-cap">
+  <div class="sq-cap-place">{{ p.place }}</div>
+  <div class="sq-cap-date">{{ p.date | date: "%B %Y" }}</div>
+  {% if p.camera and p.camera != "" %}
+    <div class="sq-cap-camera">Camera: {{ p.camera }}</div>
+  {% endif %}
+</div>
     </div>
   </div>
-</div>
-{%- endfor -%}
+{% endfor %}
+
+
+<hr style="margin: 2rem 0;">
+
+<p>
+<h2>Map</h2>
+</p>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<div id="everyday-map" style="height: 420px; border-radius: 14px; overflow: hidden; border: 1px solid rgba(0,0,0,.12);"></div>
 
 <script>
-(function () {
-  const openers = document.querySelectorAll('[data-open]');
-  const modals  = document.querySelectorAll('.sq-modal');
+(function(){
+  // Build markers array from Jekyll data
+  const raw = [
+    {% for p in site.data.everyday %}
+      {% if p.lat and p.lon %}
+      {
+        place: {{ p.place | jsonify }},
+        lat: {{ p.lat }},
+        lon: {{ p.lon }}
+      }{% unless forloop.last %},{% endunless %}
+      {% endif %}
+    {% endfor %}
+  ];
 
-  function openModal(id) {
-    const m = document.getElementById(id);
-    if (!m) return;
-    m.setAttribute('aria-hidden', 'false');
-    document.body.style.overflow = 'hidden';
-    // update hash without jumping
-    history.replaceState(null, '', '#' + id);
+  // Deduplicate by coordinates (rounded to avoid tiny differences)
+  const seen = new Map();
+  for (const m of raw) {
+    const key = `${m.place}|${m.lat.toFixed(4)}|${m.lon.toFixed(4)}`;
+    if (!seen.has(key)) seen.set(key, m);
   }
+  const markers = Array.from(seen.values());
 
-  function closeModal(m) {
-    m.setAttribute('aria-hidden', 'true');
-    document.body.style.overflow = '';
-    // remove hash
-    if (location.hash) history.replaceState(null, '', location.pathname + location.search);
-  }
+  const el = document.getElementById('everyday-map');
+  if (!el) return;
 
-  openers.forEach(a => {
-    a.addEventListener('click', (e) => {
-      e.preventDefault();
-      openModal(a.getAttribute('data-open'));
-    });
-  });
+  const map = L.map('everyday-map', { scrollWheelZoom: false });
 
-  modals.forEach(m => {
-    // click on overlay closes
-    m.addEventListener('click', (e) => {
-      if (e.target === m || e.target.hasAttribute('data-close')) {
-        closeModal(m);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  const bounds = [];
+  for (const m of markers) {
+    const ll = [m.lat, m.lon];
+    bounds.push(ll);
+
+    const marker = L.circleMarker(ll, {
+      radius: 6,
+      color: '#b00020',
+      fillColor: '#d0002a',
+      fillOpacity: 0.9,
+      weight: 1
+    }).addTo(map).bindPopup(m.place);
+
+    marker.on('click', function () {
+     const cards = document.querySelectorAll('.sq-card');
+     cards.forEach(card => {
+      if (card.dataset.place === m.place) {
+        card.classList.remove('dim');
+        card.classList.add('highlight');
+      } else {
+        card.classList.remove('highlight');
+        card.classList.add('dim');
       }
     });
-  });
 
-  // ESC closes
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') {
-      const open = document.querySelector('.sq-modal[aria-hidden="false"]');
-      if (open) closeModal(open);
-    }
-  });
+  // scroll grid into view
+    document.querySelector('.sq-grid').scrollIntoView({ behavior: 'smooth' });
+   });
 
-  // If page loads with a hash that matches a modal, open it
-  if (location.hash) {
-    const id = location.hash.slice(1);
-    const m = document.getElementById(id);
-    if (m && m.classList.contains('sq-modal')) {
-      openModal(id);
-    }
   }
+
+  if (bounds.length) {
+    map.fitBounds(bounds, { padding: [20, 20] });
+  } else {
+    map.setView([20, 0], 2); // fallback global view
+  }
+  
+  map.on('click', function(){
+  const cards = document.querySelectorAll('.sq-card');
+  cards.forEach(card => {
+    card.classList.remove('dim');
+    card.classList.remove('highlight');
+  });
+});
 })();
 </script>
