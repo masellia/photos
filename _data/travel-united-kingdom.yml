@@ -19,5 +19,38 @@
   place: Highlands, Scotland
   date: 2022-12-11
   camera: “Leica CL”
-  lat: 57.2742
-  lon: -5.51605 
+  lat: 57.14732,
+  lon: -6.10728
+
+- file: ice.jpg
+  name: Hills on the old man of Storr
+  place: Isle of Skye, Scotland
+  date: 2022-12-11
+  camera: “Leica CL”
+  lat: 57.5071
+  lon: -6.1831
+  
+- file: Portree.jpg
+  name: Boats on the dock
+  place: Portree, Scotland
+  date: 2022-12-11
+  camera: “Leica CL”
+  lat: 57.4133
+  lon: -6.1947
+
+- file: Window.jpg
+  name: A window on the harbor
+  place: Portree, Scotland
+  date: 2022-12-11
+  camera: “Leica CL”
+  lat: 57.4133
+  lon: -6.1947
+
+- file: The Old.jpg
+  name: The old man of Storr
+  place: Isle of Skye, Scotland
+  date: 2022-12-11
+  camera: “Leica CL”
+  lat: 57.5071
+  lon: -6.1831
+
