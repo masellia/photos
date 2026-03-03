@@ -67,13 +67,13 @@ Here are snapshots of life-in-motion, different from my usual horizon.
     </div>
   </article>
 
-  <!-- SCOTLAND -->
+  <!-- United Kingdom -->
   <article class="sq-card">
-    <a class="sq-link" href="{{ '/travel/scotland/' | relative_url }}">
-      <img class="sq-thumb" src="{{ '/assets/img/travel/scotland/thumbs/Barca Specchio.jpg' | relative_url }}" alt="Scotland">
+    <a class="sq-link" href="{{ '/travel/united-kingdom/' | relative_url }}">
+      <img class="sq-thumb" src="{{ '/assets/img/travel/united-kingdom/thumbs/Barca Specchio.jpg' | relative_url }}" alt="United Kingdom">
     </a>
     <div class="sq-meta">
-      <div class="sq-name"> Scotland </div>
+      <div class="sq-name"> United Kingdom </div>
     </div>
   </article>
 
