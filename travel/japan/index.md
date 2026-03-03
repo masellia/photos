@@ -151,7 +151,7 @@ permalink: /travel/japan/
     {% for p in items %}
     {{ p.file | jsonify }}: {
       place: {{ p.place | jsonify }},
-      date: {{ (p.date | date: "%B %Y") | jsonify }},
+      date: {{ p.date | date: "%B %Y" | jsonify }},
       camera: {{ p.camera | default: "" | jsonify }}
     }{% unless forloop.last %},{% endunless %}
     {% endfor %}
