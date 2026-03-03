@@ -31,7 +31,7 @@
   lon: -84.3885
 
 - file: 6.jpg
-  name: xing downton Atlanta
+  name: Relaxing downton Atlanta
   place: Altanta, USA
   date: 2025-04-01
   camera: “Canon 450D”
@@ -48,6 +48,46 @@
 
 - file: 11.jpg
   name: Workers form the bus
+  place: Altanta, USA
+  date: 2025-04-01
+  camera: “Canon 450D”
+  lat: 33.7501
+  lon: -84.3885
+
+- file: 13.jpg
+  name: Walking on the steps of Martin Luther King
+  place: Altanta, USA
+  date: 2025-04-01
+  camera: “Canon 450D”
+  lat: 33.7501
+  lon: -84.3885
+
+- file: 15.jpg
+  name: Downtown Atlanta
+  place: Altanta, USA
+  date: 2025-04-01
+  camera: “Canon 450D”
+  lat: 33.7501
+  lon: -84.3885
+
+- file: 16.jpg
+  name: Beautiful people at the GeorgiaTech
+  place: Altanta, USA
+  date: 2025-04-01
+  camera: “Canon 450D”
+  lat: 33.7501
+  lon: -84.3885
+
+- file: 17.jpg
+  name: Find the impostor
+  place: Altanta, USA
+  date: 2025-04-01
+  camera: “Canon 450D”
+  lat: 33.7501
+  lon: -84.3885
+
+- file: 19.jpg
+  name: Too much smoke in my barbecue
   place: Altanta, USA
   date: 2025-04-01
   camera: “Canon 450D”
