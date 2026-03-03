@@ -93,3 +93,36 @@
   camera: “Canon 450D”
   lat: 33.7501
   lon: -84.3885
+
+- file: 25.jpg
+  name: The old passion for college footbal
+  place: Altanta, USA
+  date: 2025-04-01
+  camera: “Canon 450D”
+  lat: 33.7501
+  lon: -84.3885
+
+- file: Porfilo6.jpg
+  name: Faces of Selma 50
+  place: Selma, USA
+  date: 2025-04-01
+  camera: “Canon 450D”
+  lat: 32.4074
+  lon: -87.0211
+
+- file: Porfilo1.jpg
+  name: Decorated
+  place: Selma, USA
+  date: 2025-04-01
+  camera: “Canon 450D”
+  lat: 32.4074
+  lon: -87.0211
+
+
+- file: Porfilo4.jpg
+  name: Selma 50
+  place: Selma, USA
+  date: 2025-04-01
+  camera: “Canon 450D”
+  lat: 32.4074
+  lon: -87.0211
