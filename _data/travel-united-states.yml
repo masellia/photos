@@ -4,7 +4,7 @@
   date: 2025-04-01
   camera: “Canon 450D”
   lat: 32.4074
-  lon: 87.0211
+  lon: -87.0211
 
 - file: 12.jpg
   name: Self Portrait on campus
@@ -12,4 +12,4 @@
   date: 2025-04-01
   camera: “Canon 450D”
   lat: 33.7501
-  lon: 84.3885
+  lon: -84.3885
