@@ -1,7 +1,15 @@
-- file: placeholder.jpg
-  name: Placeholder
+- file: Profilo3.jpg
+  name: Father and Son 2 Selma 50
+  place: Selma, USA
+  date: 2025-04-01
+  camera: “Canon 450D”
+  lat: 32.4074
+  lon: 87.0211
+
+- file: 12.jpg
+  name: Self Portrait on campus
   place: Altanta, USA
   date: 2025-04-01
   camera: “Canon 450D”
-  lat: 41.0082
-  lon: 28.9784
+  lat: 33.7501
+  lon: 84.3885

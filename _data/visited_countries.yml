@@ -25,6 +25,9 @@
 - name: United Kingdom
   slug: united-kingdom
   iso2: GB
+- name: United States of America
+  slug: united-states
+  iso2: USA
 - name: Turkey
   slug: turkey
   iso2: TR
