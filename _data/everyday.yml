@@ -61,3 +61,27 @@
   camera: "Leica CL"
   lat: 41.3420
   lon: 14.6647
+
+- file: Passion&Friends.jpg
+  name: Dust, passion, friendship
+  place: Rome, Italy
+  date: 2024-04-14
+  camera: ""
+  lat: 41.8967
+  lon: 12.4822
+
+- file: pidgeonfeeding.jpg
+  name: Giving with patiente
+  place: Trieste, Italy
+  date: 2025-05-26
+  camera: ""
+  lat: 41.8967
+  lon: 12.4822
+
+- file: LoveAir.jpg
+  name: Love is in the air
+  place: Rome, Italy
+  date: 2022-07-07
+  camera: ""
+  lat: 41.8967
+  lon: 12.4822

@@ -110,7 +110,7 @@
   lat: 32.4074
   lon: -87.0211
 
-- file: Porfilo1.jpg
+- file: Profilo1.jpg
   name: Decorated
   place: Selma, USA
   date: 2025-04-01
@@ -119,10 +119,26 @@
   lon: -87.0211
 
 
-- file: Porfilo4.jpg
+- file: Profilo4.jpg
   name: Selma 50
   place: Selma, USA
   date: 2025-04-01
   camera: “Canon 450D”
   lat: 32.4074
   lon: -87.0211
+
+- file: uncleSam.jpg
+  name: Uncle Sam likes selfies
+  place: New York, USA
+  date: 2024-11-12
+  camera: “Leica CL”
+  lat: 40.7128
+  lon: -74.0060
+
+- file: NavyFriends.jpg
+  name: Friends along the river
+  place: Baltimore, USA
+  date: 2024-11-09
+  camera: “Leica CL”
+  lat: 39.2905
+  lon: -76.6104

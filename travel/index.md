@@ -11,7 +11,7 @@ A collection of pictures I shot during my trips — either for holidays or for w
 </p>
 
 <p>
-Every time I travel abroad I try to catch, with my camera, a glimpse of how people live and share moments of everyday life in their characteristic environment.
+Every time I travel abroad I try to catch, with my camera, a glimpse of how people live and share moments of everyday life in their environment.
 </p>
 
 <p>
