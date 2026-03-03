@@ -26,7 +26,7 @@ permalink: /travel/turkey/
 
 .sq-thumb{
   width:100%;
-  aspect-ratio: 3/2;
+  aspect-ratio: 1;
   object-fit:cover;
   display:block;
   background:rgba(0,0,0,.04);
