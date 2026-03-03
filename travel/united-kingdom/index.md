@@ -1,6 +1,6 @@
 ---
 layout: page
-title: United Kingdom
+title: united-kingdom
 permalink: /travel/united-kingdom/
 ---
 
