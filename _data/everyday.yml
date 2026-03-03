@@ -85,3 +85,43 @@
   camera: ""
   lat: 41.8967
   lon: 12.4822
+
+- file: myturn.jpg
+  name: My turn
+  place: Rome, Italy
+  date: 2021-11-20
+  camera: ""
+  lat: 41.8967
+  lon: 12.4822
+
+- file: StealingMovies.jpg
+  name: Stealing a movie
+  place: Rome, Italy
+  date: 2022-07-12
+  camera: ""
+  lat: 41.8967
+  lon: 12.4822
+
+- file: oldtrain.jpg
+  name: The old train
+  place: Morcone, Italy
+  date: 2019-08-10
+  camera: "Leica CL"
+  lat: 41.3420
+  lon: 14.6647
+
+- file: CastelWalls.jpg
+  name: A night at the castle ruins
+  place: Morcone, Italy
+  date: 2019-08-10
+  camera: ""
+  lat: 41.3420
+  lon: 14.6647
+
+- file: Panni.jpg
+  name: Walking among hanging clothes
+  place: Catania, Italy
+  date: 2023-10-08
+  camera: ""
+  lat: 37.5079
+  lon: 15.0830
