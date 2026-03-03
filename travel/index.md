@@ -77,7 +77,7 @@ Here are snapshots of life-in-motion, different from my usual horizon.
     </div>
   </article>
 
-  <!-- United STATES OF AMERICA -->
+  <!-- UNITED STATES OF AMERICA -->
   <article class="sq-card">
     <a class="sq-link" href="{{ '/travel/united-states/' | relative_url }}">
       <img class="sq-thumb" src="{{ '/assets/img/travel/united-states/thumbs/Profilo2.jpg' | relative_url }}" alt="United States of America">
