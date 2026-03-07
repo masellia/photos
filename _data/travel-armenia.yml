@@ -13,3 +13,20 @@
   camera: ""
   lat: 40.112421
   lon: 44.730277
+
+- file: monastero.jpg
+  name: The view from the Geghard monastery
+  place: Geghard, Armenia
+  date: 2015-10-03
+  camera: ""
+  lat: 40.1404
+  lon: 44.8185
+
+- file: monastero2.jpg
+  name: The Geghard monastery
+  place: Geghard, Armenia
+  date: 2015-10-03
+  camera: ""
+  lat: 40.1404
+  lon: 44.8185
+
