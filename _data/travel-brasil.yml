@@ -1,6 +1,6 @@
 - file: river.jpeg
   name: On the Parà river
-  place: Belem, Brazil
+  place: Belem, Brasil
   date: 2024-12-01
   camera: “”
   lat: -1.4563
@@ -8,7 +8,7 @@
 
 - file: lonely tree.jpeg
   name: A lonely tree
-  place: Marajo, Brazil
+  place: Marajo, Brasil
   date: 2024-12-09
   camera: “”
   lat: -0.9402
@@ -16,7 +16,7 @@
 
 - file: bison skin.jpeg
   name: Working the buffal leather
-  place: Marajo, Brazil
+  place: Marajò, Brasil
   date: 2024-12-09
   camera: “”
   lat: -0.9402
@@ -25,23 +25,23 @@
 
 - file: boat.jpeg
   name: On the ocean
-  place: Salinopolis, Brazil
-  date: 2024-12-09
+  place: Salinopolis, Brasil
+  date: 2024-12-05
   camera: “”
   lat: -0.6250
   lon: -47.3462
 
 - file: oceantide.jpeg
   name: Before the tide
-  place: Salinopolis, Brazil
-  date: 2024-12-09
+  place: Salinopolis, Brasil
+  date: 2024-12-05
   camera: “”
   lat: -0.6250
   lon: -47.3462
 
 - file: window.jpeg
   name: My window on the ocean
-  place: Marajò, Brazil
+  place: Marajò, Brasil
   date: 2024-12-09
   camera: “”
   lat: -0.9402
