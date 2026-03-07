@@ -37,6 +37,28 @@ Here are snapshots of life-in-motion, different from my usual horizon.
 
 <div class="sq-grid">
 
+  <!-- ARMENIA -->
+  <article class="sq-card">
+   <a class="sq-link" href="{{ '/travel/armenia/' | relative_url }}">
+     <img class="sq-thumb" src="{{ '/assets/img/travel/armenia/thumbs/valle.jpg' | relative_url }}" alt="Armenia">
+   </a>
+   <div class="sq-meta">
+     <div class="sq-name">Armenia</div>
+   </div>
+  </article>
+
+
+  <!-- BRASIL -->
+  <article class="sq-card">
+   <a class="sq-link" href="{{ '/travel/brasil/' | relative_url }}">
+     <img class="sq-thumb" src="{{ '/assets/img/travel/brasil/thumbs/IMG_2274.jpg' | relative_url }}" alt="Brasil">
+   </a>
+   <div class="sq-meta">
+     <div class="sq-name">Brasil</div>
+   </div>
+  </article>
+
+
   <!-- EGYPT -->
   <article class="sq-card">
    <a class="sq-link" href="{{ '/travel/egypt/' | relative_url }}">
