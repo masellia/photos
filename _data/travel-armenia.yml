@@ -1,7 +1,15 @@
-- file: placeholder.jpg
-  name: Placeholder
+- file: valle.jpg
+  name: Hills outside Yerevan
   place: Yerevan, Armenia
-  date: 2025-04-01
+  date: 2015-10-03
   camera: “”
-  lat: 41.0082
-  lon: 28.9784
+  lat: -40.1872
+  lon: 44.5152
+
+- file: tempio.jpg
+  name: The Hellenistic temple of Garni
+  place: Garni, Armenia
+  date: 2015-10-03
+  camera: “”
+  lat: -40.112421
+  lon: 44.730277
