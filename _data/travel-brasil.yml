@@ -1,7 +1,49 @@
-- file: placeholder.jpg
-  name: Placeholder
-  place: Salinopolis, USA
-  date: 2025-04-01
+- file: river.jpeg
+  name: On the Parà river
+  place: Belem, Brazil
+  date: 2024-12-01
   camera: “”
-  lat: 41.0082
-  lon: 28.9784
+  lat: -1.4563
+  lon: 48.5013
+
+- file: lonely tree.jpeg
+  name: A lonely tree
+  place: Marajo, Brazil
+  date: 2024-12-09
+  camera: “”
+  lat: -0.9402
+  lon: -48.5013
+
+- file: bison skin.jpeg
+  name: Working the buffal leather
+  place: Marajo, Brazil
+  date: 2024-12-09
+  camera: “”
+  lat: -0.9402
+  lon: -48.5013
+
+
+- file: boat.jpeg
+  name: On the ocean
+  place: Salinopolis, Brazil
+  date: 2024-12-09
+  camera: “”
+  lat: -0.6250
+  lon: -47.3462
+
+- file: oceantide.jpeg
+  name: Before the tide
+  place: Salinopolis, Brazil
+  date: 2024-12-09
+  camera: “”
+  lat: -0.6250
+  lon: -47.3462
+
+- file: window.jpeg
+  name: My window on the ocean
+  place: Marajò, Brazil
+  date: 2024-12-09
+  camera: “”
+  lat: -0.9402
+  lon: -48.5013
+
