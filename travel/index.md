@@ -69,6 +69,18 @@ Here are snapshots of life-in-motion, different from my usual horizon.
    </div>
   </article>
 
+
+  <!-- GREECE -->
+  <article class="sq-card">
+   <a class="sq-link" href="{{ '/travel/greece/' | relative_url }}">
+     <img class="sq-thumb" src="{{ '/assets/img/travel/greece/thumbs/segnale.jpg' | relative_url }}" alt="Greece">
+   </a>
+   <div class="sq-meta">
+     <div class="sq-name">Greece</div>
+   </div>
+  </article>
+
+
   <!-- JAPAN -->
   <article class="sq-card">
     <a class="sq-link" href="{{ '/travel/japan/' | relative_url }}">
@@ -79,6 +91,7 @@ Here are snapshots of life-in-motion, different from my usual horizon.
     </div>
   </article>
 
+
   <!-- MEXICO -->
   <article class="sq-card">
     <a class="sq-link" href="{{ '/travel/mexico/' | relative_url }}">
@@ -88,6 +101,7 @@ Here are snapshots of life-in-motion, different from my usual horizon.
       <div class="sq-name">Mexico</div>
     </div>
   </article>
+
 
   <!-- United Kingdom -->
   <article class="sq-card">

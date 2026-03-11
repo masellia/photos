@@ -7,6 +7,9 @@
 - name: Egypt
   slug: egypt
   iso2: EG
+- name: Greece
+  slug: greece
+  iso2: GR
 - name: India
   slug: india
   iso2: IN
