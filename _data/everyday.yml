@@ -71,7 +71,7 @@
   lon: 12.4822
 
 - file: pidgeonfeeding.jpg
-  name: Giving with patiente
+  name: Giving with patience
   place: Trieste, Italy
   date: 2025-05-26
   camera: ""
@@ -125,3 +125,19 @@
   camera: ""
   lat: 37.5079
   lon: 15.0830
+
+- file: bimbaBW.jpg
+  name: New generations
+  place: Sassinoro, Italy
+  date: 2019-08-20
+  camera: ""
+  lat: 41.3745
+  lon: 14.6631
+
+- file: pap2.jpg
+  name: Passion for little things growing
+  place: Morcone, Italy
+  date: 2019-08-1
+  camera: ""
+  lat: 41.3420
+  lon: 14.6647
