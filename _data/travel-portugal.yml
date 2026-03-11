@@ -5,3 +5,51 @@
   camera: "Leica CL"
   lat: 37.7804
   lon: -25.4970
+
+- file: lavoratori.jpg
+  name: Tea gatherers
+  place: São Miguel, Azores
+  date: 2017-07-06
+  camera: "Leica CL"
+  lat: 37.7804
+  lon: -25.4970
+
+- file: lavoratori3.jpg
+  name: Getting the tea leaves
+  place: São Miguel, Azores
+  date: 2017-07-06
+  camera: "Leica CL"
+  lat: 37.7804
+  lon: -25.4970
+
+- file: pano1.jpg
+  name: Tea hills
+  place: São Miguel, Azores
+  date: 2017-07-06
+  camera: "Leica CL"
+  lat: 37.7804
+  lon: -25.4970
+
+- file: pescatore.jpg
+  name: Putting in order the hooks
+  place: São Miguel, Azores
+  date: 2017-07-10
+  camera: "Leica CL"
+  lat: 37.7804
+  lon: -25.4970
+
+- file: pescatore2.jpg
+  name: Cleaning before sailing
+  place: São Miguel, Azores
+  date: 2017-07-10
+  camera: "Leica CL"
+  lat: 37.7804
+  lon: -25.4970
+
+- file: pirati.jpg
+  name: Pirates
+  place: São Miguel, Azores
+  date: 2017-07-07
+  camera: "Leica CL"
+  lat: 37.7804
+  lon: -25.4970
