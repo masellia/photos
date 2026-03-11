@@ -141,3 +141,11 @@
   camera: ""
   lat: 41.3420
   lon: 14.6647
+
+- file: matera_pan.jpg
+  name: A view on the Sassi
+  place: Matera, Italy
+  date: 2019-07-27
+  camera: ""
+  lat: 40.6664
+  lon: 16.6044
