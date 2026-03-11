@@ -1,7 +1,47 @@
-- file: placeholder.jpg
-  name: Placeholder
-  place: Yerevan, Armenia
-  date: 2025-04-01
-  camera: “”
-  lat: 41.0082
-  lon: 28.9784
+- file: colonneO.jpg
+  name: Wind in Sunion
+  place: Sunion, Greece
+  date: 2019-06-29
+  camera: "Leice CL"
+  lat: 37.6502
+  lon: 24.0246
+
+- file: segnale.jpg
+  name: Up to the old city
+  place: Athens, Greece
+  date: 2019-06-28
+  camera: "Leice CL"
+  lat: 37.9838
+  lon: 23.7275
+
+- file: acropolis.jpg
+  name: The acropolis
+  place: Athens, Greece
+  date: 2019-06-29
+  camera: "Leice CL"
+  lat: 37.9838
+  lon: 23.7275
+
+- file: soldati.jpg
+  name: March in Athens
+  place: Athens, Greece
+  date: 2019-06-28
+  camera: "Leice CL"
+  lat: 37.9838
+  lon: 23.7275
+
+- file: vecchi.jpg
+  name: Old friends of the acropolis
+  place: Athens, Greece
+  date: 2019-06-28
+  camera: "Leice CL"
+  lat: 37.9838
+  lon: 23.7275
+
+- file: manichino.jpg
+  name: Weild figures of the acropolis
+  place: Athens, Greece
+  date: 2019-06-28
+  camera: "Leice CL"
+  lat: 37.9838
+  lon: 23.7275
