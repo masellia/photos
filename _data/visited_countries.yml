@@ -28,6 +28,9 @@
 - name: Palestine
   slug: palestine
   iso2: PS
+- name: Portugal
+  slug: portugal
+  iso2: PT
 - name: United Kingdom
   slug: united-kingdom
   iso2: GB
