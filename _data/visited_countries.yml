@@ -13,6 +13,9 @@
 - name: India
   slug: india
   iso2: IN
+- name: Iran
+  slug: iran
+  iso2: IR
 - name: Japan
   slug: japan
   iso2: JP

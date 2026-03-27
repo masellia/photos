@@ -81,6 +81,17 @@ Here are snapshots of life-in-motion, different from my usual horizon.
   </article>
 
 
+  <!-- IRAN -->
+  <article class="sq-card">
+    <a class="sq-link" href="{{ '/travel/iran/' | relative_url }}">
+      <img class="sq-thumb" src="{{ '/assets/img/travel/iran/thumbs/piscine.jpg' | relative_url }}" alt="Japan">
+    </a>
+    <div class="sq-meta">
+      <div class="sq-name">iran</div>
+    </div>
+  </article>
+
+
   <!-- JAPAN -->
   <article class="sq-card">
     <a class="sq-link" href="{{ '/travel/japan/' | relative_url }}">
