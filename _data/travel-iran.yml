@@ -5,3 +5,35 @@
   camera: "Leica CL"
   lat: 32.6539
   lon: 51.6660
+
+- file: preghiera2.jpg
+  name: Moment of pray
+  place: Teheran, Iran
+  date: 2018-09-19
+  camera: "Leica CL"
+  lat: 35.7219
+  lon: 51.3347
+
+- file: preghiera.jpg
+  name: The pray
+  place: Teheran, Iran
+  date: 2018-09-19
+  camera: "Leica CL"
+  lat: 35.7219
+  lon: 51.3347
+
+- file: donne.jpg
+  name: Out of the mosque
+  place: Yadz, Iran
+  date: 2018-09-19
+  camera: "Leica CL"
+  lat: 31.8974
+  lon: 54.3569
+
+- file: friends.jpg
+  name: A quiet momnent among friends
+  place: Yadz, Iran
+  date: 2018-09-19
+  camera: "Leica CL"
+  lat: 31.8974
+  lon: 54.3569
