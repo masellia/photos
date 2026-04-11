@@ -37,14 +37,6 @@
   camera: "Leica CL"
   lat: 32.6539
   lon: 51.6660
-
-- file: venditore.jpg
-  name: Dried fruit in the market
-  place: Isfahan, Iran
-  date: 2018-09-12
-  camera: "Leica CL"
-  lat: 32.6539
-  lon: 51.6660
   
 - file: ponter.jpg
   name: The bridge in Isfahan
@@ -53,6 +45,46 @@
   camera: "Leica CL"
   lat: 32.6539
   lon: 51.6660
+
+- file: passengers.jpg
+  name: No way out
+  place: Teheran, Iran
+  date: 2018-09-09
+  camera: "Leica CL"
+  lat: 35.7219
+  lon: 51.3347
+
+- file: vecchia.jpg
+  name: Setting the dress
+  place: Isfahan, Iran
+  date: 2018-09-10
+  camera: "Leica CL"
+  lat: 32.6539
+  lon: 51.6660
+
+- file: venditore.jpg
+  name: Dried fruit in the market
+  place: Shiraz, Iran
+  date: 2018-09-12
+  camera: "Leica CL"
+  lat: 29.5926
+  lon: 52.5836
+
+- file: necropolis.jpg
+  name: The resting place of Achaemenid kings
+  place: Naqsh-e Rostam, Iran
+  date: 2018-09-13
+  camera: "Leica CL"
+  lat: 29.9890
+  lon: 52.8745
+  
+- file: bassorilievo.jpg
+  name: Signs
+  place: Persepolis, Iran
+  date: 2018-09-13
+  camera: "Leica CL"
+  lat: 29.9356
+  lon: 52.8892
 
 - file: donne.jpg
   name: Out of the mosque
@@ -69,43 +101,21 @@
   camera: "Leica CL"
   lat: 31.8974
   lon: 54.3569
-
-- file: necropolis.jpg
-  name: The resting place of Achaemenid kings
-  place: Naqsh-e Rostam, Iran
-  date: 2018-09-13
-  camera: "Leica CL"
-  lat: 29.9890
-  lon: 52.8745
   
-- file: vecchia.jpg
-  name: Setting the dress
+- file: sguardi.jpg
+  name: Young looks
   place: Yadz, Iran
-  date: 2018-09-10
+  date: 2018-09-14
   camera: "Leica CL"
   lat: 31.8974
   lon: 54.3569
 
-- file: Young looks.jpg
-  name: Setting the dress
-  place: Shiraz, Iran
+- file: deserto2BW.jpg
+  name: Climbing the dune
+  place: Yadz, Iran
   date: 2018-09-14
   camera: "Leica CL"
-  lat: 29.5926
-  lon: 52.5836
+  lat: 31.8974
+  lon: 54.3569
 
-- file: bassorilievo.jpg
-  name: Signs
-  place: Persepolis, Iran
-  date: 2018-09-13
-  camera: "Leica CL"
-  lat: 29.9356
-  lon: 52.8892
 
-- file: passengers.jpg
-  name: No way out
-  place: Teheran, Iran
-  date: 2018-09-09
-  camera: "Leica CL"
-  lat: 35.7219
-  lon: 51.3347
