@@ -91,6 +91,7 @@ Here are snapshots of life-in-motion, different from my usual horizon.
     </div>
   </article>
 
+
   <!-- ITALY -->
   <article class="sq-card">
     <a class="sq-link" href="{{ '/travel/italy/' | relative_url }}">
@@ -100,6 +101,7 @@ Here are snapshots of life-in-motion, different from my usual horizon.
       <div class="sq-name">Italy</div>
     </div>
   </article>
+
 
   <!-- JAPAN -->
   <article class="sq-card">
@@ -119,6 +121,17 @@ Here are snapshots of life-in-motion, different from my usual horizon.
     </a>
     <div class="sq-meta">
       <div class="sq-name">Mexico</div>
+    </div>
+  </article>
+
+
+  <!-- MONGOLIA -->
+  <article class="sq-card">
+    <a class="sq-link" href="{{ '/travel/mongolia/' | relative_url }}">
+      <img class="sq-thumb" src="{{ '/assets/img/travel/mongolia/thumbs/lottatori.jpg' | relative_url }}" alt="Mongolia">
+    </a>
+    <div class="sq-meta">
+      <div class="sq-name">Mongolia</div>
     </div>
   </article>
 
