@@ -2,7 +2,7 @@
 layout: page
 title: Everyday Life
 permalink: /everyday/
-menu: true
+menu: false
 order: 1
 ---
 
