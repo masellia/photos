@@ -14,7 +14,7 @@
   lat: 49.6429
   lon: 100.1772
 
-- file: monaci.jpg
+- file: monaci2.jpg
   name: Walking friends
   place: Mongolia
   date: 2016-07-25
@@ -30,8 +30,24 @@
   lat:
   lon:
 
-- file: pastore.jpg
+- file: meditazione.jpg
+  name: Meditation
+  place: Mongolia
+  date: 2016-07-27
+  camera: "Leica CL"
+  lat:
+  lon:
+  
+- file: nomade.jpg
   name: Lost in the thoughts
+  place: Mongolia
+  date: 2016-07-28
+  camera: "Leica CL"
+  lat:
+  lon:
+
+- file: pastore.jpg
+  name: At work
   place: Mongolia
   date: 2016-07-25
   camera: "Leica CL"
