@@ -1,7 +1,15 @@
-- file: placeholder.jpg
-  name: Placeholder
-  place: Rome, Italy
-  date: 2025-04-01
-  camera: “”
-  lat: 41.0082
-  lon: 28.9784
+- file: star.jpg
+  name: Looking past the lake
+  place: Rome, Mongolia
+  date: 2016-07-27
+  camera: "Leica CL"
+  lat: 
+  lon:
+
+- file: lavoro.jpg
+  name: Tire shop
+  place: Murun, Mongolia
+  date: 2016-07-29
+  camera: "Leica CL"
+  lat: 49.6429
+  lon: 100.1772
