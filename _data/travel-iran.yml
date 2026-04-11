@@ -46,6 +46,22 @@
   lat: 32.6539
   lon: 51.6660
 
+- file: bimbi.jpg
+  name: Spying
+  place: Isfahan, Iran
+  date: 2018-09-10
+  camera: "Leica CL"
+  lat: 32.6539
+  lon: 51.6660
+
+- file: themosk.jpg
+  name: Resting in the mosque
+  place: Isfahan, Iran
+  date: 2018-09-11
+  camera: "Leica CL"
+  lat: 32.6539
+  lon: 51.6660
+  
 - file: passengers.jpg
   name: No way out
   place: Teheran, Iran
@@ -110,6 +126,15 @@
   lat: 31.8974
   lon: 54.3569
 
+- file: primitivi.jpg
+  name: Silhouette at the desert sunset
+  place: Yadz, Iran
+  date: 2018-09-14
+  camera: "Leica CL"
+  lat: 31.8974
+  lon: 54.3569
+
+
 - file: deserto2BW.jpg
   name: Climbing the dune
   place: Yadz, Iran
@@ -118,4 +143,26 @@
   lat: 31.8974
   lon: 54.3569
 
+- file: venditore2.jpg
+  name: Fresh vegetables at the market
+  place: Teheran, Iran
+  date: 2018-09-16
+  camera: "Leica CL"
+  lat: 35.7219
+  lon: 51.3347
 
+- file: tappeto.jpg
+  name: Carpet maker
+  place: Yadz, Iran
+  date: 2018-09-15
+  camera: "Leica CL"
+  lat: 31.8974
+  lon: 54.3569
+
+- file:lavoratore2.jpg
+  name: Making the briks old way
+  place: Yadz, Iran
+  date: 2018-09-15
+  camera: "Leica CL"
+  lat: 31.8974
+  lon: 54.3569
