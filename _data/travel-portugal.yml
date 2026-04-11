@@ -1,3 +1,19 @@
+- file: Musicanti_Lisbona_210226.jpg
+  name: Street Dancers
+  place: Lisbon, Portugal
+  date: 2026-02-21
+  camera: "Leica Q3"
+  lat: 38.7223
+  lon: -9.1393
+
+- file: Cantine_Porto_220226.jpg
+  name: Porto Wine Barrels
+  place: Porto, Portugal
+  date: 2026-02-22
+  camera: "Leica Q3"
+  lat: 41.1579
+  lon: -8.6291
+
 - file: caldera2.jpg
   name: Swimming in a caldeira
   place: São Miguel, Azores
