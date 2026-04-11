@@ -1,0 +1,112 @@
+- file: chess.jpg
+  name: Playing in Piazza del Fico
+  place: Rome, Italy
+  date: 2016-01-01
+  camera: "Leica CL"
+  lat: 41.8967
+  lon: 12.4822
+
+- file: mulino.jpg
+  name: The old water mill wheel
+  place: Morcone, Italy
+  date: 2023-01-05
+  camera: "Leica CL"
+  lat: 41.3420
+  lon: 14.6647
+
+- file: fire_presepe.jpg
+  name: A Ndocciata (a torches parade) to celebrate nativity
+  place: Morcone, Italy
+  date: 2023-01-05
+  camera: "Leica CL"
+  lat: 41.3420
+  lon: 14.6647
+
+- file: Passion&Friends.jpg
+  name: Dust, passion, friendship
+  place: Rome, Italy
+  date: 2024-04-14
+  camera: ""
+  lat: 41.8967
+  lon: 12.4822
+
+- file: pidgeonfeeding.jpg
+  name: Giving with patience
+  place: Trieste, Italy
+  date: 2025-05-26
+  camera: ""
+  lat: 41.8967
+  lon: 12.4822
+
+- file: LoveAir.jpg
+  name: Love is in the air
+  place: Rome, Italy
+  date: 2022-07-07
+  camera: ""
+  lat: 41.8967
+  lon: 12.4822
+
+- file: myturn.jpg
+  name: My turn
+  place: Rome, Italy
+  date: 2021-11-20
+  camera: ""
+  lat: 41.8967
+  lon: 12.4822
+
+- file: StealingMovies.jpg
+  name: Stealing a movie
+  place: Rome, Italy
+  date: 2022-07-12
+  camera: ""
+  lat: 41.8967
+  lon: 12.4822
+
+- file: oldtrain.jpg
+  name: The old train
+  place: Morcone, Italy
+  date: 2019-08-10
+  camera: "Leica CL"
+  lat: 41.3420
+  lon: 14.6647
+
+- file: CastelWalls.jpg
+  name: A night at the castle ruins
+  place: Morcone, Italy
+  date: 2019-08-10
+  camera: ""
+  lat: 41.3420
+  lon: 14.6647
+
+- file: Panni.jpg
+  name: Walking among hanging clothes
+  place: Catania, Italy
+  date: 2023-10-08
+  camera: ""
+  lat: 37.5079
+  lon: 15.0830
+
+- file: bimbaBW.jpg
+  name: New generations
+  place: Sassinoro, Italy
+  date: 2019-08-20
+  camera: "Leica CL"
+  lat: 41.3745
+  lon: 14.6631
+
+- file: pap2.jpg
+  name: Passion for little things growing
+  place: Morcone, Italy
+  date: 2019-08-1
+  camera: "Leica CL"
+  lat: 41.3420
+  lon: 14.6647
+
+- file: matera_pan.jpg
+  name: A view on the Sassi
+  place: Matera, Italy
+  date: 2019-07-27
+  camera: "Leica CL"
+  lat: 40.6664
+  lon: 16.6044
+

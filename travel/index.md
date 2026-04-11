@@ -91,6 +91,15 @@ Here are snapshots of life-in-motion, different from my usual horizon.
     </div>
   </article>
 
+  <!-- ITALY -->
+  <article class="sq-card">
+    <a class="sq-link" href="{{ '/travel/italy/' | relative_url }}">
+      <img class="sq-thumb" src="{{ '/assets/img/travel/italy/thumbs/Passion&Friends.jpg' | relative_url }}" alt="Italy">
+    </a>
+    <div class="sq-meta">
+      <div class="sq-name"> italy </div>
+    </div>
+  </article>
 
   <!-- JAPAN -->
   <article class="sq-card">
