@@ -61,8 +61,8 @@ author:
 
 # Add links to the sidebar.
   menu:
-  - title: Everyday Life
-    url: /everyday/
+#  - title: Everyday Life
+#    url: /everyday/
   - title: Travel Highlights
     url: /travel/
   - title: Projects
