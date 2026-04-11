@@ -1,9 +1,9 @@
 - file: star.jpg
   name: Looking past the lake
-  place: Rome, Mongolia
+  place: Mongolia
   date: 2016-07-27
   camera: "Leica CL"
-  lat: 
+  lat:
   lon:
 
 - file: lavoro.jpg
@@ -13,3 +13,27 @@
   camera: "Leica CL"
   lat: 49.6429
   lon: 100.1772
+
+- file: monaci.jpg
+  name: Walking friends
+  place: Mongolia
+  date: 2016-07-25
+  camera: "Leica CL"
+  lat:
+  lon:
+
+- file: preghiera.jpg
+  name: A moment of pray
+  place: Mongolia
+  date: 2016-07-25
+  camera: "Leica CL"
+  lat:
+  lon:
+
+- file: pastore.jpg
+  name: Lost in the thoughts
+  place: Mongolia
+  date: 2016-07-25
+  camera: "Leica CL"
+  lat:
+  lon:
