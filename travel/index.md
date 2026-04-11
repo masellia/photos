@@ -87,7 +87,7 @@ Here are snapshots of life-in-motion, different from my usual horizon.
       <img class="sq-thumb" src="{{ '/assets/img/travel/iran/thumbs/piscina.jpg' | relative_url }}" alt="Iran">
     </a>
     <div class="sq-meta">
-      <div class="sq-name">iran</div>
+      <div class="sq-name">Iran</div>
     </div>
   </article>
 
@@ -97,7 +97,7 @@ Here are snapshots of life-in-motion, different from my usual horizon.
       <img class="sq-thumb" src="{{ '/assets/img/travel/italy/thumbs/Passion&Friends.jpg' | relative_url }}" alt="Italy">
     </a>
     <div class="sq-meta">
-      <div class="sq-name"> italy </div>
+      <div class="sq-name">Italy</div>
     </div>
   </article>
 
