@@ -62,7 +62,7 @@
   lat: 49.0541
   lon: 104.0717
 
-- file: arcier1.jpg
+- file: arcieri.jpg
   name: Who is gonna win?
   place: Erdenet, Mongolia
   date: 2016-07-31
@@ -85,3 +85,19 @@
   camera: "Leica CL"
   lat: 49.0541
   lon: 104.0717
+
+- file: bimba.jpg
+  name: Who are you?
+  place: Erdenet, Mongolia
+  date: 2016-07-31
+  camera: "Leica CL"
+  lat: 50.4360
+  lon: 100.1611
+
+- file: bimbe.jpg
+  name: Young smiles
+  place: Erdenet, Mongolia
+  date: 2016-07-31
+  camera: "Leica CL"
+  lat: 50.4360
+  lon: 100.1611
