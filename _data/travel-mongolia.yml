@@ -53,3 +53,35 @@
   camera: "Leica CL"
   lat:
   lon:
+
+- file: arciere.jpg
+  name: Aiming at the center
+  place: Erdenet, Mongolia
+  date: 2016-07-31
+  camera: "Leica CL"
+  lat: 49.0541
+  lon: 104.0717
+
+- file: arcier1.jpg
+  name: Who is gonna win?
+  place: Erdenet, Mongolia
+  date: 2016-07-31
+  camera: "Leica CL"
+  lat: 49.0541
+  lon: 104.0717
+
+- file: arciera.jpg
+  name: Bullsey
+  place: Erdenet, Mongolia
+  date: 2016-07-31
+  camera: "Leica CL"
+  lat: 49.0541
+  lon: 104.0717
+
+- file: lottatori.jpg
+  name: Friendship before the fight
+  place: Erdenet, Mongolia
+  date: 2016-07-31
+  camera: "Leica CL"
+  lat: 49.0541
+  lon: 104.0717
