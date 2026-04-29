@@ -116,7 +116,7 @@ permalink: /travel/italy/
 {% assign items = site.data["travel-italy"] | sort: "date" | reverse %}
 {% for p in items %}
   <article class="sq-card" data-place="{{ p.place | escape }}">
-    <a href="{{ '/assets/img/travel/italy/italy/' | append: p.file | relative_url }}" class="sq-a">
+    <a href="{{ '/assets/img/travel/italy/full/' | append: p.file | relative_url }}" class="sq-a">
       <img class="sq-thumb" src="{{ '/assets/img/travel/italy/thumbs/' | append: p.file | relative_url }}" alt="{{ p.name | escape }}">
     </a>
     <div class="sq-meta">
