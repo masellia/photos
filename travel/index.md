@@ -1,21 +1,17 @@
 ---
 layout: page
-title: Travels
-permalink: /travel/
+title: World
+permalink: /world/
 menu: true
 order: 2
 ---
 
 <p>
-A collection of pictures I shot during my trips — either for holidays or for work.
+A collection of images collected across different parts of the world.
 </p>
 
 <p>
-Every time I travel abroad I try to catch, with my camera, a glimpse of how people live and share moments of everyday life in their environment.
-</p>
-
-<p>
-Here are snapshots of life-in-motion, different from my usual horizon.
+Not a record of travel, but impressions — moments, details, and atmospheres that stood apart from their surroundings.
 </p>
 
 <hr style="margin: 2rem 0;">
