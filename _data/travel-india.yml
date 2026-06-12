@@ -1,7 +1,31 @@
-- file: placeholder.jpg
-  name: Placeholder
+- file: Flowers.jpg
+  name: The flowers market
+  place: Bangalore, India
+  date: 2023-04-17
+  camera: “”
+  lat: 12.971599
+  lon: 77.594566
+
+- file: onion.jpg
+  name: Peeling all day long
+  place: Bangalore, India
+  date: 2023-04-17
+  camera: “”
+  lat: 12.971599
+  lon: 77.594566
+
+- file: cleaning.jpg
+  name: Early work at the Raman Institute
   place: Bangalore, India
   date: 2026-06-10
   camera: “”
-  lat: 41.0082
-  lon: 28.9784
+  lat: 12.971599
+  lon: 77.594566
+
+- file: monkeys.jpg
+  name: Monkey summit in the campus
+  place: Gandhinagar, India
+  date: 2026-06-10
+  camera: “”
+  lat: 23.2233
+  lon: 72.6477

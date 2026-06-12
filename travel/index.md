@@ -86,6 +86,17 @@ Not a record of travel, but impressions — moments, details, and atmospheres th
    </div>
   </article>
 
+  
+  <!-- INDIA -->
+  <article class="sq-card">
+    <a class="sq-link" href="{{ '/world/india/' | relative_url }}">
+      <img class="sq-thumb" src="{{ '/assets/img/travel/india/thumbs/Flowers.jpg' | relative_url }}" alt="India">
+    </a>
+    <div class="sq-meta">
+      <div class="sq-name">India</div>
+    </div>
+  </article>
+
 
   <!-- IRAN -->
   <article class="sq-card">
