@@ -4,7 +4,7 @@
   date: 2022-01-21
   camera: “”
   lat: 48.8566
-  lon: -2.3522
+  lon: 2.3522
 
 - file: pasticceria2.jpg
   name: Sweet hands
@@ -12,7 +12,7 @@
   date: 2022-01-21
   camera: “”
   lat: 48.8566
-  lon: -2.3522
+  lon: 2.3522
 
 - file: meringhe.jpg
   name: Colors in Paris
@@ -20,7 +20,7 @@
   date: 2022-01-21
   camera: “”
   lat: 48.8566
-  lon: -2.3522
+  lon: 2.3522
 
 - file: ObservatoireParis.jpg
   name: A foggy walking path to the Observatoire de Paris
@@ -28,4 +28,4 @@
   date: 2021-12-07
   camera: ""
   lat: 48.8130
-  lon: -2.2385
+  lon: 2.2385
