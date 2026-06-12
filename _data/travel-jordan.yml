@@ -53,3 +53,11 @@
   camera: "Leica CL"
   lat: 29.593056
   lon: 35.420000
+
+- file: bedouine.jpg
+  name: The desert fig tree
+  place: Wadi Rum, Jordan
+  date: 2022-08-15
+  camera: "Leica CL"
+  lat: 29.593056
+  lon: 35.420000
