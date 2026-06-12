@@ -71,7 +71,7 @@ Not a record of travel, but impressions — moments, details, and atmospheres th
      <img class="sq-thumb" src="{{ '/assets/img/travel/france/thumbs/suonatore.jpg' | relative_url }}" alt="France">
    </a>
    <div class="sq-meta">
-     <div class="sq-name">Drance</div>
+     <div class="sq-name">France</div>
    </div>
   </article>
 
