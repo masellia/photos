@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Armenia
-permalink: /travel/armenia/
+permalink: /world/armenia/
 ---
 
 <style>
