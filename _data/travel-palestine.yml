@@ -1,55 +1,39 @@
-- file: portrait.jpg
-  name: Perfect portrait
-  place: Dana, Jordan
-  date: 2022-08-11
+- file: horse_water.jpg
+  name: Thirst
+  place: Akko, Isreal
+  date: 2022-07-28
   camera: "Leica CL"
-  lat: 30.67519
-  lon: 35.61028
+  lat: 32.9439
+  lon: 35.0928
 
-- file: sunset.jpg
-  name: Sunset in the Dana Valley
-  place: Dana, Jordan
-  date: 2022-08-11
+- file: jump2.jpg
+  name: Jumping games
+  place: Akko, Isreal
+  date: 2022-07-28
   camera: "Leica CL"
-  lat: 30.67519
-  lon: 35.61028
+  lat: 32.9439
+  lon: 35.0928
 
-- file: petra2.jpg
-  name: Narrow passages in Petra
-  place: Petra, Jordan
-  date: 2022-08-12
+- file: jump.jpg
+  name: Who jump first?
+  place: Akko, Isreal
+  date: 2022-07-28
   camera: "Leica CL"
-  lat: 30.328960
-  lon: 35.444832
+  lat: 32.9439
+  lon: 35.0928
 
-- file: petra.jpg
-  name: The Treasury
-  place: Petra, Jordan
-  date: 2022-08-12
+- file: bread.jpg
+  name: Fresh bread coming
+  place: Akko, Isreal
+  date: 2022-07-28
   camera: "Leica CL"
-  lat: 30.328960
-  lon: 35.444832
+  lat: 32.9439
+  lon: 35.0928
 
-- file: suonatore.jpg
-  name: An old player
-  place: Petra, Jordan
-  date: 2022-08-12
+- file: mirror.jpg
+  name: Reflections
+  place: Akko, Isreal
+  date: 2022-07-28
   camera: "Leica CL"
-  lat: 30.328960
-  lon: 35.444832
-
-- file: sunset2.jpg
-  name: Silent in the sunset
-  place: Dana, Jordan
-  date: 2022-08-11
-  camera: "Leica CL"
-  lat: 30.67519
-  lon: 35.61028
-
-- file: desert2.jpg
-  name: Crossing the Wadi Rum
-  place: Wadi Rum, Jordan
-  date: 2022-08-15
-  camera: "Leica CL"
-  lat: 29.593056
-  lon: 35.420000
+  lat: 32.9439
+  lon: 35.0928
