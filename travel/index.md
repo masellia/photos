@@ -131,6 +131,17 @@ Not a record of travel, but impressions — moments, details, and atmospheres th
   </article>
 
 
+  <!-- JORDAN -->
+  <article class="sq-card">
+    <a class="sq-link" href="{{ '/world/jordan/' | relative_url }}">
+      <img class="sq-thumb" src="{{ '/assets/img/travel/jordan/thumbs/portrait.jpg' | relative_url }}" alt="Jordan">
+    </a>
+    <div class="sq-meta">
+      <div class="sq-name">Jordan</div>
+    </div>
+  </article>
+
+
   <!-- MEXICO -->
   <article class="sq-card">
     <a class="sq-link" href="{{ '/world/mexico/' | relative_url }}">
