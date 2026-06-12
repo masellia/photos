@@ -65,6 +65,16 @@ Not a record of travel, but impressions — moments, details, and atmospheres th
    </div>
   </article>
 
+ <!-- FRANCE -->
+  <article class="sq-card">
+   <a class="sq-link" href="{{ '/travel/france/' | relative_url }}">
+     <img class="sq-thumb" src="{{ '/assets/img/travel/france/thumbs/suonatore.jpg' | relative_url }}" alt="France">
+   </a>
+   <div class="sq-meta">
+     <div class="sq-name">Drance</div>
+   </div>
+  </article>
+
 
   <!-- GREECE -->
   <article class="sq-card">
