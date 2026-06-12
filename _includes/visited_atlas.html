@@ -24,7 +24,7 @@
 (function(){
  const visited = {
   {% for c in site.data.visited_countries %}
-    "{{ c.iso2 | upcase }}": "{{ '/travel/' | append: c.slug | append: '/' | relative_url }}"{% unless forloop.last %},{% endunless %}
+    "{{ c.iso2 | upcase }}": "{{ '/world/' | append: c.slug | append: '/' | relative_url }}"{% unless forloop.last %},{% endunless %}
   {% endfor %}
 };  
 
