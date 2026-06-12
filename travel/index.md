@@ -7,7 +7,7 @@ order: 2
 ---
 
 <p>
-A collection of images collected across different parts of the world.
+A collection of images taken across different parts of the world.
 </p>
 
 <p>
