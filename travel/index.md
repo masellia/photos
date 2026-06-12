@@ -35,7 +35,7 @@ Not a record of travel, but impressions — moments, details, and atmospheres th
 
   <!-- ARMENIA -->
   <article class="sq-card">
-   <a class="sq-link" href="{{ '/travel/armenia/' | relative_url }}">
+   <a class="sq-link" href="{{ '/world/armenia/' | relative_url }}">
      <img class="sq-thumb" src="{{ '/assets/img/travel/armenia/thumbs/valle.jpg' | relative_url }}" alt="Armenia">
    </a>
    <div class="sq-meta">
