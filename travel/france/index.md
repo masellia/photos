@@ -1,7 +1,7 @@
 ---
 layout: page
 title: France
-permalink: /travel/france/
+permalink: /world/france/
 ---
 
 <style>
