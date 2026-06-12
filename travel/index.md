@@ -46,7 +46,7 @@ Not a record of travel, but impressions — moments, details, and atmospheres th
 
   <!-- BRASIL -->
   <article class="sq-card">
-   <a class="sq-link" href="{{ '/travel/brasil/' | relative_url }}">
+   <a class="sq-link" href="{{ '/world/brasil/' | relative_url }}">
      <img class="sq-thumb" src="{{ '/assets/img/travel/brasil/thumbs/oceantide.jpeg' | relative_url }}" alt="Brasil">
    </a>
    <div class="sq-meta">
@@ -57,7 +57,7 @@ Not a record of travel, but impressions — moments, details, and atmospheres th
 
   <!-- EGYPT -->
   <article class="sq-card">
-   <a class="sq-link" href="{{ '/travel/egypt/' | relative_url }}">
+   <a class="sq-link" href="{{ '/world/egypt/' | relative_url }}">
      <img class="sq-thumb" src="{{ '/assets/img/travel/egypt/thumbs/philae.jpg' | relative_url }}" alt="Egypt">
    </a>
    <div class="sq-meta">
@@ -67,7 +67,7 @@ Not a record of travel, but impressions — moments, details, and atmospheres th
 
  <!-- FRANCE -->
   <article class="sq-card">
-   <a class="sq-link" href="{{ '/travel/france/' | relative_url }}">
+   <a class="sq-link" href="{{ '/world/france/' | relative_url }}">
      <img class="sq-thumb" src="{{ '/assets/img/travel/france/thumbs/suonatore.jpg' | relative_url }}" alt="France">
    </a>
    <div class="sq-meta">
@@ -78,7 +78,7 @@ Not a record of travel, but impressions — moments, details, and atmospheres th
 
   <!-- GREECE -->
   <article class="sq-card">
-   <a class="sq-link" href="{{ '/travel/greece/' | relative_url }}">
+   <a class="sq-link" href="{{ '/world/greece/' | relative_url }}">
      <img class="sq-thumb" src="{{ '/assets/img/travel/greece/thumbs/segnale.jpg' | relative_url }}" alt="Greece">
    </a>
    <div class="sq-meta">
@@ -89,7 +89,7 @@ Not a record of travel, but impressions — moments, details, and atmospheres th
 
   <!-- IRAN -->
   <article class="sq-card">
-    <a class="sq-link" href="{{ '/travel/iran/' | relative_url }}">
+    <a class="sq-link" href="{{ '/world/iran/' | relative_url }}">
       <img class="sq-thumb" src="{{ '/assets/img/travel/iran/thumbs/piscina.jpg' | relative_url }}" alt="Iran">
     </a>
     <div class="sq-meta">
@@ -100,7 +100,7 @@ Not a record of travel, but impressions — moments, details, and atmospheres th
 
   <!-- ITALY -->
   <article class="sq-card">
-    <a class="sq-link" href="{{ '/travel/italy/' | relative_url }}">
+    <a class="sq-link" href="{{ '/world/italy/' | relative_url }}">
       <img class="sq-thumb" src="{{ '/assets/img/travel/italy/thumbs/Passion&Friends.jpg' | relative_url }}" alt="Italy">
     </a>
     <div class="sq-meta">
@@ -111,7 +111,7 @@ Not a record of travel, but impressions — moments, details, and atmospheres th
 
   <!-- JAPAN -->
   <article class="sq-card">
-    <a class="sq-link" href="{{ '/travel/japan/' | relative_url }}">
+    <a class="sq-link" href="{{ '/world/japan/' | relative_url }}">
       <img class="sq-thumb" src="{{ '/assets/img/travel/japan/thumbs/geisha4.jpg' | relative_url }}" alt="Japan">
     </a>
     <div class="sq-meta">
@@ -122,7 +122,7 @@ Not a record of travel, but impressions — moments, details, and atmospheres th
 
   <!-- MEXICO -->
   <article class="sq-card">
-    <a class="sq-link" href="{{ '/travel/mexico/' | relative_url }}">
+    <a class="sq-link" href="{{ '/world/mexico/' | relative_url }}">
       <img class="sq-thumb" src="{{ '/assets/img/travel/mexico/thumbs/Mamma.jpg' | relative_url }}" alt="Mexico">
     </a>
     <div class="sq-meta">
@@ -133,7 +133,7 @@ Not a record of travel, but impressions — moments, details, and atmospheres th
 
   <!-- MONGOLIA -->
   <article class="sq-card">
-    <a class="sq-link" href="{{ '/travel/mongolia/' | relative_url }}">
+    <a class="sq-link" href="{{ '/world/mongolia/' | relative_url }}">
       <img class="sq-thumb" src="{{ '/assets/img/travel/mongolia/thumbs/lottatori.jpg' | relative_url }}" alt="Mongolia">
     </a>
     <div class="sq-meta">
@@ -144,7 +144,7 @@ Not a record of travel, but impressions — moments, details, and atmospheres th
 
   <!-- PORTUGAL -->
   <article class="sq-card">
-    <a class="sq-link" href="{{ '/travel/portugal/' | relative_url }}">
+    <a class="sq-link" href="{{ '/world/portugal/' | relative_url }}">
       <img class="sq-thumb" src="{{ '/assets/img/travel/portugal/thumbs/caldera2.jpg' | relative_url }}" alt="Portugal">
     </a>
     <div class="sq-meta">
@@ -155,7 +155,7 @@ Not a record of travel, but impressions — moments, details, and atmospheres th
 
   <!-- United Kingdom -->
   <article class="sq-card">
-    <a class="sq-link" href="{{ '/travel/united-kingdom/' | relative_url }}">
+    <a class="sq-link" href="{{ '/world/united-kingdom/' | relative_url }}">
       <img class="sq-thumb" src="{{ '/assets/img/travel/united-kingdom/thumbs/Barca Specchio.jpg' | relative_url }}" alt="United Kingdom">
     </a>
     <div class="sq-meta">
@@ -166,7 +166,7 @@ Not a record of travel, but impressions — moments, details, and atmospheres th
 
   <!-- UNITED STATES OF AMERICA -->
   <article class="sq-card">
-    <a class="sq-link" href="{{ '/travel/united-states/' | relative_url }}">
+    <a class="sq-link" href="{{ '/world/united-states/' | relative_url }}">
       <img class="sq-thumb" src="{{ '/assets/img/travel/united-states/thumbs/profilo3.jpg' | relative_url }}" alt="United States of America">
     </a>
     <div class="sq-meta">
@@ -177,7 +177,7 @@ Not a record of travel, but impressions — moments, details, and atmospheres th
 
   <!-- TURKEY -->
   <article class="sq-card">
-    <a class="sq-link" href="{{ '/travel/turkey/' | relative_url }}">
+    <a class="sq-link" href="{{ '/world/turkey/' | relative_url }}">
       <img class="sq-thumb" src="{{ '/assets/img/travel/turkey/thumbs/carpet1.jpg' | relative_url }}" alt="Turkey">
     </a>
     <div class="sq-meta">

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mongolia
-permalink: /travel/mongolia/
+permalink: /world/mongolia/
 ---
 
 <style>

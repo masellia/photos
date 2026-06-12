@@ -1,7 +1,7 @@
 ---
 layout: page
 title: USA
-permalink: /travel/united-states/
+permalink: /world/united-states/
 ---
 
 <style>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Italy
-permalink: /travel/italy/
+permalink: /world/italy/
 ---
 
 <style>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Greece
-permalink: /travel/greece/
+permalink: /world/greece/
 ---
 
 <style>

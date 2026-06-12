@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Egypt
-permalink: /travel/egypt/
+permalink: /world/egypt/
 ---
 
 <style>

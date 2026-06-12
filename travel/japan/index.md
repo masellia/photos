@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Japan
-permalink: /travel/japan/
+permalink: /world/japan/
 ---
 
 <style>

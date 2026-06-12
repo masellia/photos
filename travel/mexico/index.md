@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mexico
-permalink: /travel/mexico/
+permalink: /world/mexico/
 ---
 
 <style>

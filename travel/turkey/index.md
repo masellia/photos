@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Turkey
-permalink: /travel/turkey/
+permalink: /world/turkey/
 ---
 
 

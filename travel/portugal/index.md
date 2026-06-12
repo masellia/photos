@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Portugal
-permalink: /travel/portugal/
+permalink: /world/portugal/
 ---
 
 <style>

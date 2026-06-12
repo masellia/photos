@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Iran
-permalink: /travel/iran/
+permalink: /world/iran/
 ---
 
 <style>

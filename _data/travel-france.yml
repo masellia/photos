@@ -1,10 +1,26 @@
-- file: placeholder.jpg
-  name: Placeholder
-  place: Paris, Italy
-  date: 2025-04-01
+- file: cantastories.jpg
+  name: A ballad singer in Montmartre
+  place: Paris, France
+  date: 2022-01-21
   camera: “”
-  lat: 41.0082
-  lon: 28.9784
+  lat: 48.8566
+  lon: -2.3522
+
+- file: pasticceria2.jpg
+  name: Sweet hands
+  place: Paris, France
+  date: 2022-01-21
+  camera: “”
+  lat: 48.8566
+  lon: -2.3522
+
+- file: meringhe.jpg
+  name: Colors in Paris
+  place: Paris, France
+  date: 2022-01-21
+  camera: “”
+  lat: 48.8566
+  lon: -2.3522
 
 - file: ObservatoireParis.jpg
   name: A foggy walking path to the Observatoire de Paris

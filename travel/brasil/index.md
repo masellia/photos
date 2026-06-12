@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Brasil
-permalink: /travel/brasil/
+permalink: /world/brasil/
 ---
 
 <style>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: United Kingdom
-permalink: /travel/united-kingdom/
+permalink: /world/united-kingdom/
 ---
 
 <style>
