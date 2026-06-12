@@ -5,3 +5,11 @@
   camera: “”
   lat: 41.0082
   lon: 28.9784
+
+- file: ObservatoireParis.jpg
+  name: A foggy walking path to the Observatoire de Paris
+  place: Meudon, France
+  date: 2021-12-07
+  camera: ""
+  lat: 48.8130
+  lon: -2.2385
