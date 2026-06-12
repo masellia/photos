@@ -15,7 +15,7 @@
   lon: 35.0928
 
 - file: jump.jpg
-  name: Who jump first?
+  name: Who jumps first?
   place: Akko, Isreal
   date: 2022-07-28
   camera: "Leica CL"
@@ -37,3 +37,123 @@
   camera: "Leica CL"
   lat: 32.9439
   lon: 35.0928
+
+- file: synagog.jpg
+  name: Holy sleeping
+  place: Tel Aviv, Isreal
+  date: 2022-07-29
+  camera: "Leica CL"
+  lat: 32.0853
+  lon: 34.7818
+
+- file: beach.jpg
+  name: Cheering at the gate
+  place: Tel Aviv, Isreal
+  date: 2022-07-29
+  camera: "Leica CL"
+  lat: 32.0853
+  lon: 34.7818
+  
+- file: kids.jpg
+  name: Why so scared?
+  place: Jerusalem, Palestine
+  date: 2022-08-02
+  camera: "Leica CL"
+  lat: 31.771959
+  lon: 35.217018
+
+- file: ortodox.jpg
+  name: Friends in black
+  place: Jerusalem, Palestine
+  date: 2022-08-02
+  camera: "Leica CL"
+  lat: 31.771959
+  lon: 35.217018
+
+- file: muro3.jpg
+  name: 3 figures at the Wall
+  place: Jerusalem, Palestine
+  date: 2022-08-02
+  camera: "Leica CL"
+  lat: 31.771959
+  lon: 35.217018
+
+- file: santosepolcro.jpg
+  name: The holiest stone
+  place: Jerusalem, Palestine
+  date: 2022-08-02
+  camera: "Leica CL"
+  lat: 31.771959
+  lon: 35.217018
+
+- file: muro2.jpg
+  name: Wall Wedding
+  place: Jerusalem, Palestine
+  date: 2022-08-02
+  camera: "Leica CL"
+  lat: 31.771959
+  lon: 35.217018
+
+- file: oldie.jpg
+  name: Old Friends in Jerusalem
+  place: Jerusalem, Palestine
+  date: 2022-08-02
+  camera: "Leica CL"
+  lat: 31.771959
+  lon: 35.217018
+
+- file: games.jpg
+  name: Playing doesn't have any age
+  place: Jerusalem, Palestine
+  date: 2022-08-02
+  camera: "Leica CL"
+  lat: 31.771959
+  lon: 35.217018
+
+- file: juice.jpg
+  name: Refreshment in the Citadel
+  place: Jerusalem, Palestine
+  date: 2022-08-02
+  camera: "Leica CL"
+  lat: 31.771959
+  lon: 35.217018
+
+- file: breadkids.jpg
+  name: The sweatest bread in Jerusalem
+  place: Jerusalem, Palestine
+  date: 2022-08-02
+  camera: "Leica CL"
+  lat: 31.771959
+  lon: 35.217018
+
+- file: muro4.jpg
+  name: Colored clothes in the
+  place: Jerusalem, Palestine
+  date: 2022-08-02
+  camera: "Leica CL"
+  lat: 31.771959
+  lon: 35.217018
+
+- file: tiberiad.jpg
+  name: A family day at the Tiberias lake
+  place: Sea of Galilee, Isreal
+  date: 2022-07-31
+  camera: "Leica CL"
+  lat: 32.8
+  lon: 35.6
+
+- file: bus.jpg
+  name: Waiting the bus monitored
+  place: Nazareth, Isreal
+  date: 2022-07-31
+  camera: "Leica CL"
+  lat: 32.699635
+  lon: 35.303547
+
+- file: fishermen.jpg
+  name: Fishing in the Tiberias lake
+  place: Nazareth, Isreal
+  date: 2022-07-31
+  camera: "Leica CL"
+  lat: 32.699635
+  lon: 35.303547
