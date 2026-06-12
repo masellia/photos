@@ -17,7 +17,7 @@
 - file: 2.jpg
   name: Waiting in order at five points
   place: Altanta, USA
-  date: 2025-04-01
+  date: 2015-03-25
   camera: "Canon 450D"
   lat: 33.7501
   lon: -84.3885
@@ -25,7 +25,7 @@
 - file: 3.jpg
   name: Happy 5
   place: Altanta, USA
-  date: 2025-04-01
+  date: 2015-03-26
   camera: "Canon 450D"
   lat: 33.7501
   lon: -84.3885
@@ -33,7 +33,7 @@
 - file: 6.jpg
   name: Relaxing downton Atlanta
   place: Altanta, USA
-  date: 2025-04-01
+  date: 2015-03-29
   camera: "Canon 450D"
   lat: 33.7501
   lon: -84.3885
@@ -41,7 +41,7 @@
 - file: 8.jpg
   name: Catching the MARTA
   place: Altanta, USA
-  date: 2025-04-01
+  date: 2015-03-31
   camera: "Canon 450D"
   lat: 33.7501
   lon: -84.3885
@@ -49,7 +49,7 @@
 - file: 11.jpg
   name: Workers form the bus
   place: Altanta, USA
-  date: 2025-04-01
+  date: 2015-04-03
   camera: "Canon 450D"
   lat: 33.7501
   lon: -84.3885
@@ -57,7 +57,7 @@
 - file: 13.jpg
   name: Walking on the steps of Martin Luther King
   place: Altanta, USA
-  date: 2025-04-01
+  date: 2015-04-05
   camera: "Canon 450D"
   lat: 33.7501
   lon: -84.3885
@@ -65,7 +65,7 @@
 - file: 15.jpg
   name: Downtown Atlanta
   place: Altanta, USA
-  date: 2025-04-01
+  date: 2015-04-07
   camera: "Canon 450D"
   lat: 33.7501
   lon: -84.3885
@@ -73,7 +73,7 @@
 - file: 16.jpg
   name: Beautiful people at the GeorgiaTech
   place: Altanta, USA
-  date: 2025-04-01
+  date: 2015-04-09
   camera: "Canon 450D"
   lat: 33.7501
   lon: -84.3885
@@ -81,7 +81,7 @@
 - file: 17.jpg
   name: Find the impostor
   place: Altanta, USA
-  date: 2025-04-01
+  date: 2015-04-10
   camera: "Canon 450D"
   lat: 33.7501
   lon: -84.3885
@@ -89,7 +89,7 @@
 - file: 19.jpg
   name: Too much smoke in my barbecue
   place: Altanta, USA
-  date: 2025-04-01
+  date: 2015-04-13
   camera: "Canon 450D"
   lat: 33.7501
   lon: -84.3885
@@ -97,7 +97,7 @@
 - file: 25.jpg
   name: The old passion for college footbal
   place: Altanta, USA
-  date: 2025-04-01
+  date: 2015-04-18
   camera: "Canon 450D"
   lat: 33.7501
   lon: -84.3885
@@ -105,7 +105,7 @@
 - file: Porfilo6.jpg
   name: Faces of Selma 50
   place: Selma, USA
-  date: 2025-04-01
+  date: 2015-03-08
   camera: "Canon 450D"
   lat: 32.4074
   lon: -87.0211
@@ -113,16 +113,15 @@
 - file: Profilo1.jpg
   name: Decorated
   place: Selma, USA
-  date: 2025-04-01
+  date: 2015-03-08
   camera: "Canon 450D"
   lat: 32.4074
   lon: -87.0211
 
-
 - file: Profilo4.jpg
   name: Selma 50
   place: Selma, USA
-  date: 2025-04-01
+  date: 2015-03-08
   camera: "Canon 450D"
   lat: 32.4074
   lon: -87.0211
