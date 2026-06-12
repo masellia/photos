@@ -156,7 +156,7 @@ Not a record of travel, but impressions — moments, details, and atmospheres th
   <!-- PALESTINE -->
   <article class="sq-card">
     <a class="sq-link" href="{{ '/world/palestine/' | relative_url }}">
-      <img class="sq-thumb" src="{{ '/assets/img/travel/palestine/thumbs/lottatori.jpg' | relative_url }}" alt="Palestine">
+      <img class="sq-thumb" src="{{ '/assets/img/travel/palestine/thumbs/portrait.jpg' | relative_url }}" alt="Palestine">
     </a>
     <div class="sq-meta">
       <div class="sq-name">Palestine</div>
