@@ -2,7 +2,7 @@
   name: The flowers market
   place: Bangalore, India
   date: 2023-04-17
-  camera: “”
+  camera: "Leica CL"
   lat: 12.971599
   lon: 77.594566
 
@@ -10,7 +10,7 @@
   name: Peeling all day long
   place: Bangalore, India
   date: 2023-04-17
-  camera: “”
+  camera: "Leica CL"
   lat: 12.971599
   lon: 77.594566
 
@@ -18,7 +18,7 @@
   name: Early work at the Raman Institute
   place: Bangalore, India
   date: 2026-06-10
-  camera: “”
+  camera: ""
   lat: 12.971599
   lon: 77.594566
 
@@ -26,6 +26,14 @@
   name: Monkey summit in the campus
   place: Gandhinagar, India
   date: 2025-06-10
-  camera: “”
+  camera: "Leica CL"
   lat: 23.2233
   lon: 72.6477
+
+- file: FreshCoconut.jpeg
+  name: Fresh Coconut
+  place: Somanathapura temple, India
+  date: 2026-06-13
+  camera: "Leica Q3"
+  lat: 12.2759
+  lon: 76.8816
