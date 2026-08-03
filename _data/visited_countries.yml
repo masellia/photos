@@ -16,9 +16,15 @@
 - name: India
   slug: india
   iso2: IN
+- name: Indonesia
+  slug: indonesia
+  iso2: ID
 - name: Iran
   slug: iran
   iso2: IR
+- name: Israel&Palestine
+  slug: israel&palestine
+  iso2: PS
 - name: Italy
   slug: italy
   iso2: IT
@@ -34,9 +40,6 @@
 - name: Mongolia
   slug: mongolia
   iso2: MN
-- name: Palestine
-  slug: palestine
-  iso2: PS
 - name: Portugal
   slug: portugal
   iso2: PT
