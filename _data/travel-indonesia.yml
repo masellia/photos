@@ -14,7 +14,7 @@
   lat: -7.608
   lon: 110.204
 
-- file: dragone_6.jpg
+- file: dragon_6.jpg
   name: The king of the Island
   place: Komodo National Park, Indonesia
   date: 2026-07-24
@@ -53,3 +53,51 @@
   camera: "Leica Q3"
   lat: -8.5833
   lon: 120.3744
+
+- file: mercato_yogia_2.jpg
+  name: Interested
+  place: Yogyakarta, Indonesia
+  date: 2026-07-19
+  camera: "Leica Q3"
+  lat: -7.797068
+  lon: 110.370529
+
+- file: market_1.jpg
+  name: Cooking at the old market
+  place: Yogyakarta, Indonesia
+  date: 2026-07-19
+  camera: "Leica Q3"
+  lat: -7.797068
+  lon: 110.370529
+
+- file: mercato_yogia.jpg
+  name: Waiting to be served
+  place: Yogyakarta, Indonesia
+  date: 2026-07-19
+  camera: "Leica Q3"
+  lat: -7.797068
+  lon: 110.370529
+
+- file: venditore.jpg
+  name: Buy my studd
+  place: Jakarta, Indonesia
+  date: 2026-07-19
+  camera: "Leica Q3"
+  lat: -6.2146
+  lon: 106.8451
+
+- file: dragon_1.jpg
+  name: Thirsty
+  place: Rinca National Park, Indonesia
+  date: 2026-07-24
+  camera: "Leica Q3"
+  lat: -8.7388
+  lon: 119.7005
+
+- file: mercato_jakarta.jpg
+  name: The market in Chinatown
+  place: Jakarta, Indonesia
+  date: 2026-07-19
+  camera: "Leica Q3"
+  lat: -6.2146
+  lon: 106.8451
