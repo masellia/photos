@@ -1,7 +1,15 @@
-- file: placeholder.jpg
-  name: Placeholder
-  place: Bangalore, India
-  date: 2026-06-10
-  camera: “”
-  lat: 41.0082
-  lon: 28.9784
+- file: dressed.jpg
+  name: Shooting in costume
+  place: Yogyakarta, Indonesia
+  date: 2026-07-20
+  camera: "Leica Q3"
+  lat: -7.797068
+  lon: 110.370529
+
+- file: Borubudur.jpg
+  name: The largest Buddhist temple in the World
+  place: Borobudur, Indonesia
+  date: 2026-07-20
+  camera: "Leica Q3"
+  lat: -7.608
+  lon: 110.204
