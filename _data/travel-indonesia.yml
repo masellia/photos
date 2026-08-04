@@ -24,7 +24,7 @@
 
 - file: captain.jpg
   name: The captain of our ship
-  place: Komodo National Park, Indonesia
+  place: 22 Islands, Indonesia
   date: 2026-07-27
   camera: "Leica Q3"
   lat: -8.421
@@ -32,10 +32,10 @@
 
 - file: kids.jpg
   name: Epic kids
-  place: Komodo National Park, Indonesia
+  place: Close to Maumers, Indonesia
   date: 2026-07-28
   camera: "Leica Q3"
-  lat: 8.531361
+  lat: -8.531361
   lon: 121.963167
 
 - file: budda.jpg
@@ -79,7 +79,7 @@
   lon: 110.370529
 
 - file: venditore.jpg
-  name: Buy my studd
+  name: Fresh food and happyness
   place: Jakarta, Indonesia
   date: 2026-07-19
   camera: "Leica Q3"
