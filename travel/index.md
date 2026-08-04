@@ -175,13 +175,13 @@ Not a record of travel, but impressions — moments, details, and atmospheres th
   </article>
 
 
-  <!-- PALESTINE -->
+  <!-- ISRAEL&PALESTINE -->
   <article class="sq-card">
-    <a class="sq-link" href="{{ '/world/palestine/' | relative_url }}">
-      <img class="sq-thumb" src="{{ '/assets/img/travel/palestine/thumbs/santosepolcro.jpg' | relative_url }}" alt="Palestine">
+    <a class="sq-link" href="{{ '/world/israel&palestine/' | relative_url }}">
+      <img class="sq-thumb" src="{{ '/assets/img/travel/israel&palestine/thumbs/santosepolcro.jpg' | relative_url }}" alt="Israel&Palestine">
     </a>
     <div class="sq-meta">
-      <div class="sq-name">Palestine</div>
+      <div class="sq-name"> Israel&Palestine </div>
     </div>
   </article>
 
