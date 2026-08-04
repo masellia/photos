@@ -23,7 +23,7 @@
   lon: 31.1343
 
 - file: pyramids.jpg
-  name: Great Pyramid of Giza
+  name: The Great Pyramid of Giza
   place: Giza, Egypt
   date: 2025-04-01
   camera: "Leica CL"
@@ -55,7 +55,7 @@
   lon: 32.8775
 
 - file: Hatshepsut.jpg
-  name: Temple of Hatshepsut
+  name: The Temple of Hatshepsut
   place: Luxor, Egypt
   date: 2025-04-01
   camera: "Leica CL"
