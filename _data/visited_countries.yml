@@ -22,8 +22,8 @@
 - name: Iran
   slug: iran
   iso2: IR
-- name: Israel&Palestine
-  slug: israel&palestine
+- name: IsraelPalestine
+  slug: israelpalestine
   iso2: PS
 - name: Italy
   slug: italy
