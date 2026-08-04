@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Palestine
-permalink: /world/palestine/
+title: Israel&Palestine
+permalink: /world/israel&palestine/
 ---
 
 <style>
