@@ -7,9 +7,49 @@
   lon: 110.370529
 
 - file: Borubudur.jpg
-  name: The largest Buddhist temple in the World
+  name: Cooling at the largest Buddhist temple in the World
   place: Borobudur, Indonesia
   date: 2026-07-20
   camera: "Leica Q3"
   lat: -7.608
   lon: 110.204
+
+- file: dragone_6.jpg
+  name: The king of the Island
+  place: Komodo National Park, Indonesia
+  date: 2026-07-24
+  camera: "Leica Q3"
+  lat: -8.543333
+  lon: 119.489441
+
+- file: captain.jpg
+  name: The captain of our ship
+  place: Komodo National Park, Indonesia
+  date: 2026-07-27
+  camera: "Leica Q3"
+  lat: -8.421
+  lon: 121.026
+
+- file: kids.jpg
+  name: Epic kids
+  place: Komodo National Park, Indonesia
+  date: 2026-07-28
+  camera: "Leica Q3"
+  lat: 8.531361
+  lon: 121.963167
+
+- file: budda.jpg
+  name: Peace at Borobudur
+  place: Borobudur, Indonesia
+  date: 2026-07-20
+  camera: "Leica Q3"
+  lat: -7.608
+  lon: 110.204
+
+- file: spiderwebkids.jpg
+  name: The kids of the spider web rice fields
+  place: Ruteng, Indonesia
+  date: 2026-07-20
+  camera: "Leica Q3"
+  lat: -8.5833
+  lon: 120.3744
