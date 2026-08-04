@@ -181,7 +181,7 @@ Not a record of travel, but impressions — moments, details, and atmospheres th
       <img class="sq-thumb" src="{{ '/assets/img/travel/israelpalestine/thumbs/santosepolcro.jpg' | relative_url }}" alt="IsraelPalestine">
     </a>
     <div class="sq-meta">
-      <div class="sq-name"> IsraelPalestine </div>
+      <div class="sq-name">IsraelPalestine</div>
     </div>
   </article>
 
