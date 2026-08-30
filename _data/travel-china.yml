@@ -1,0 +1,47 @@
+- file: giocoleria.jpg
+  name: Juggling at the tower
+  place: Beijing, China
+  date: 2026-08-30
+  camera: “Leica Q3”
+  lat: 39.904
+  lon: 116.407
+
+- file: dance.jpg
+  name: Park moves
+  place: Beijing, China
+  date: 2026-08-30
+  camera: “Leica Q3”
+  lat: 39.904
+  lon: 116.407
+
+- file: fountains.jpg
+  name: Fresh water
+  place: Beijing, China
+  date: 2026-08-24
+  camera: “Leica Q3”
+  lat: 39.904
+  lon: 116.407
+
+- file: ladies_forbiddenCity.jpg
+  name: Checking the pose at the Forbidden City
+  place: Beijing, China
+  date: 2026-08-29
+  camera: “Leica Q3”
+  lat: 39.904
+  lon: 116.407
+
+- file: ladies_forbiddenCity2.jpg
+  name: Family dressing
+  place: Beijing, China
+  date: 2026-08-29
+  camera: “Leica Q3”
+  lat: 39.904
+  lon: 116.407
+
+- file: shade.jpg
+  name: Finding the narrow shade in Tiananmen
+  place: Beijing, China
+  date: 2026-08-29
+  camera: “Leica Q3”
+  lat: 39.904
+  lon: 116.407

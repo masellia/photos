@@ -54,6 +54,16 @@ Not a record of travel, but impressions — moments, details, and atmospheres th
    </div>
   </article>
 
+  <!-- CHINA -->
+  <article class="sq-card">
+   <a class="sq-link" href="{{ '/world/china/' | relative_url }}">
+     <img class="sq-thumb" src="{{ '/assets/img/travel/china/thumbs/giocoleria.jpeg' | relative_url }}" alt="China">
+   </a>
+   <div class="sq-meta">
+     <div class="sq-name">China</div>
+   </div>
+  </article>
+
 
   <!-- EGYPT -->
   <article class="sq-card">
