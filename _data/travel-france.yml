@@ -29,3 +29,11 @@
   camera: ""
   lat: 48.8130
   lon: 2.2385
+
+- file: police.jpg
+  name: Caught in the protest
+  place: Paris, France
+  date: 2026-10-17
+  camera: " "
+  lat: 48.8566
+  lon: 2.3522
